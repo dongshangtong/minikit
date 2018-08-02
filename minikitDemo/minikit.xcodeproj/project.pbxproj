@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08890F462113777C00B7F655 /* MNShineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08890F3D2113777C00B7F655 /* MNShineLayer.m */; };
+		08890F472113777C00B7F655 /* MNShineAngleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08890F3E2113777C00B7F655 /* MNShineAngleLayer.m */; };
+		08890F482113777C00B7F655 /* MNShineParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 08890F3F2113777C00B7F655 /* MNShineParams.m */; };
+		08890F492113777C00B7F655 /* MNShineClickLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08890F432113777C00B7F655 /* MNShineClickLayer.m */; };
+		08890F4A2113777C00B7F655 /* MNShineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 08890F442113777C00B7F655 /* MNShineButton.m */; };
 		08FA497320E4ADF200AB92A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FA497220E4ADF200AB92A4 /* AppDelegate.m */; };
 		08FA497620E4ADF200AB92A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FA497520E4ADF200AB92A4 /* ViewController.m */; };
 		08FA497920E4ADF200AB92A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08FA497720E4ADF200AB92A4 /* Main.storyboard */; };
@@ -16,6 +21,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08890F3A2113777C00B7F655 /* miniKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = miniKit.h; sourceTree = "<group>"; };
+		08890F3C2113777C00B7F655 /* MNShineClickLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNShineClickLayer.h; sourceTree = "<group>"; };
+		08890F3D2113777C00B7F655 /* MNShineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNShineLayer.m; sourceTree = "<group>"; };
+		08890F3E2113777C00B7F655 /* MNShineAngleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNShineAngleLayer.m; sourceTree = "<group>"; };
+		08890F3F2113777C00B7F655 /* MNShineParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNShineParams.m; sourceTree = "<group>"; };
+		08890F402113777C00B7F655 /* MNShineButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNShineButton.h; sourceTree = "<group>"; };
+		08890F412113777C00B7F655 /* MNShineAngleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNShineAngleLayer.h; sourceTree = "<group>"; };
+		08890F422113777C00B7F655 /* MNShineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNShineLayer.h; sourceTree = "<group>"; };
+		08890F432113777C00B7F655 /* MNShineClickLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNShineClickLayer.m; sourceTree = "<group>"; };
+		08890F442113777C00B7F655 /* MNShineButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNShineButton.m; sourceTree = "<group>"; };
+		08890F452113777C00B7F655 /* MNShineParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNShineParams.h; sourceTree = "<group>"; };
 		08FA496E20E4ADF200AB92A4 /* minikit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minikit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08FA497120E4ADF200AB92A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08FA497220E4ADF200AB92A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +55,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08890F392113777C00B7F655 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				08890F3A2113777C00B7F655 /* miniKit.h */,
+				08890F3B2113777C00B7F655 /* MNShineButton */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+		08890F3B2113777C00B7F655 /* MNShineButton */ = {
+			isa = PBXGroup;
+			children = (
+				08890F3C2113777C00B7F655 /* MNShineClickLayer.h */,
+				08890F3D2113777C00B7F655 /* MNShineLayer.m */,
+				08890F3E2113777C00B7F655 /* MNShineAngleLayer.m */,
+				08890F3F2113777C00B7F655 /* MNShineParams.m */,
+				08890F402113777C00B7F655 /* MNShineButton.h */,
+				08890F412113777C00B7F655 /* MNShineAngleLayer.h */,
+				08890F422113777C00B7F655 /* MNShineLayer.h */,
+				08890F432113777C00B7F655 /* MNShineClickLayer.m */,
+				08890F442113777C00B7F655 /* MNShineButton.m */,
+				08890F452113777C00B7F655 /* MNShineParams.h */,
+			);
+			path = MNShineButton;
+			sourceTree = "<group>";
+		};
 		08FA496520E4ADF200AB92A4 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +101,7 @@
 		08FA497020E4ADF200AB92A4 /* minikit */ = {
 			isa = PBXGroup;
 			children = (
+				08890F392113777C00B7F655 /* Classes */,
 				08FA497120E4ADF200AB92A4 /* AppDelegate.h */,
 				08FA497220E4ADF200AB92A4 /* AppDelegate.m */,
 				08FA497420E4ADF200AB92A4 /* ViewController.h */,
@@ -141,6 +185,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08890F4A2113777C00B7F655 /* MNShineButton.m in Sources */,
+				08890F482113777C00B7F655 /* MNShineParams.m in Sources */,
+				08890F492113777C00B7F655 /* MNShineClickLayer.m in Sources */,
+				08890F472113777C00B7F655 /* MNShineAngleLayer.m in Sources */,
+				08890F462113777C00B7F655 /* MNShineLayer.m in Sources */,
 				08FA497620E4ADF200AB92A4 /* ViewController.m in Sources */,
 				08FA498120E4ADF300AB92A4 /* main.m in Sources */,
 				08FA497320E4ADF200AB92A4 /* AppDelegate.m in Sources */,
