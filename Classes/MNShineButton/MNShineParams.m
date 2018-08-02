@@ -39,12 +39,6 @@
                          
                          ];
         
-        if (@available(iOS 10.0, * )) {
-            _isIOS10 = YES;
-        }else{
-            _isIOS10 = NO;
-        }
-        
     }
     
     return self;
