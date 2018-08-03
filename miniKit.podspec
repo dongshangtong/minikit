@@ -24,8 +24,13 @@ Pod::Spec.new do |s|
   s.public_header_files = "Classes/minikit.h" 
 
 
- s.subspec 'MNShineButton' do |b|
- b.source_files = "Classes/MNShineButton/*.{h,m}"
+ s.subspec 'MNShineButton' do |sh|
+ sh.source_files = "Classes/MNShineButton/*.{h,m}"
+
+end
+
+ s.subspec 'MNValidationView' do |va|
+ va.source_files = "Classes/MNValidationView/*.{h,m}"
 
 end
 

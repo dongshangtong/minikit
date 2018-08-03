@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "miniKit.h"
+//#import "MNValidationView.h"
 @interface ViewController ()
 
 @end
@@ -33,6 +34,15 @@
     [btn addTarget:self action:@selector(action) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:btn];
+    
+    
+//    MNValidationView * vali = [[MNValidationView alloc]initWithFrame:CGRectMake(180, 150, 100, 40) andCharCount:4 andLineCount:8];
+//    vali.validationCodeBlock = ^(NSString *code) {
+//
+//        NSLog(@"验证码是:%@",code);
+//
+//    };
+//    [self.view addSubview:vali];
 
     
 }
