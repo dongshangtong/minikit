@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046E2695895330757F20C6FBA667482C /* miniKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DE02FD065402CD7C75BEBDF9125EB4 /* miniKit-dummy.m */; };
+		14D156AE7B66329C674B617DDA9DA30D /* MNShineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF9C8E223D64ABBCC84453FFEE67A86 /* MNShineLayer.m */; };
+		1661C75A14DF28F5598837EEC7CAFAED /* MNShineAngleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FFFF7FF5A6BA2C92C2C278A54A2CAB6 /* MNShineAngleLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3475872869A1282799123918BB4915FB /* MNShineClickLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 969068F57EB140CEBFE7228AFBB70C0F /* MNShineClickLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A081A99C3636604B0CAEB4AF14638CC /* MNShineClickLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 839411C57346BE1D988FC82EACC2D580 /* MNShineClickLayer.m */; };
+		8A223F64A1D12DE2A3AB55A4987ED771 /* miniKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B080BBA14D090775901086823309B63 /* miniKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		95CD4139726F733E161B9F6D6B67374A /* MNShineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9852024A239268CDD67219EA0D0AD35D /* MNShineButton.m */; };
+		9E5E468279C4858A61E54299316A18D0 /* Pods-minikit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 084B734648A91F0C68374B91FA9DBD0D /* Pods-minikit-dummy.m */; };
+		ABAE92DC39A3E31939E7560E552639CE /* MNShineParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9E08423F2FBFFBF72454B0F8DB5E3C /* MNShineParams.m */; };
+		CB1954270090F726B00ED8B0CCB8FB31 /* MNShineParams.h in Headers */ = {isa = PBXBuildFile; fileRef = FC794271FFE56B3DA4C541BDD8FB792A /* MNShineParams.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E0C5EB3D99307A8856F64EB000EA5C34 /* MNShineAngleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA36153384F1A81BBBF9343BC6B35EBC /* MNShineAngleLayer.m */; };
+		F7C95324C1CBECD5B6B1F675EAF09E3E /* MNShineButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B2CAB48550AB57E75C4C32C364A482E0 /* MNShineButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FAEC052D648E4C2BE46EA0BBA0E946B2 /* MNShineLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9353D2EF714BEE985D07BBA1173A8941 /* MNShineLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A00F77134927B8E11CEE7D900B9A07F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 444FDB41CBCFCE83522DE48A134196BD;
+			remoteInfo = miniKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		084B734648A91F0C68374B91FA9DBD0D /* Pods-minikit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-minikit-dummy.m"; sourceTree = "<group>"; };
+		099B34398FCDB43953C538C6E3C8A6E9 /* Pods-minikit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-minikit-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B4E2E342238534ABA0807CEB0DEB840 /* libPods-minikit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-minikit.a"; path = "libPods-minikit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C49C98338814F209E4E354B0D5F825E /* Pods-minikit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-minikit-frameworks.sh"; sourceTree = "<group>"; };
+		11E6AA312F5C168F88730BFB6D2DD746 /* miniKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "miniKit-prefix.pch"; sourceTree = "<group>"; };
+		167949C2E98D3B29FDB6528E0931E7D5 /* Pods-minikit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-minikit.release.xcconfig"; sourceTree = "<group>"; };
+		1EF9C8E223D64ABBCC84453FFEE67A86 /* MNShineLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MNShineLayer.m; path = Classes/MNShineButton/MNShineLayer.m; sourceTree = "<group>"; };
+		28DE02FD065402CD7C75BEBDF9125EB4 /* miniKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "miniKit-dummy.m"; sourceTree = "<group>"; };
+		37F01E5EA2EC837E81E200A329EE4CE9 /* heart.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = heart.png; path = Resources/heart.png; sourceTree = "<group>"; };
+		3CE9A5D78C9F281BB6BA6FBB0DCB5B6A /* libminiKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libminiKit.a; path = libminiKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5815F18950D40E3059BD38D1EFBB1066 /* star.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = star.png; path = Resources/star.png; sourceTree = "<group>"; };
+		6B080BBA14D090775901086823309B63 /* miniKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = miniKit.h; path = Classes/miniKit.h; sourceTree = "<group>"; };
+		6E9E08423F2FBFFBF72454B0F8DB5E3C /* MNShineParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MNShineParams.m; path = Classes/MNShineButton/MNShineParams.m; sourceTree = "<group>"; };
+		839411C57346BE1D988FC82EACC2D580 /* MNShineClickLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MNShineClickLayer.m; path = Classes/MNShineButton/MNShineClickLayer.m; sourceTree = "<group>"; };
+		8822A3B587E7DF3791BC5A9C997C65F3 /* Pods-minikit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-minikit-resources.sh"; sourceTree = "<group>"; };
+		8FFFF7FF5A6BA2C92C2C278A54A2CAB6 /* MNShineAngleLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MNShineAngleLayer.h; path = Classes/MNShineButton/MNShineAngleLayer.h; sourceTree = "<group>"; };
+		9353D2EF714BEE985D07BBA1173A8941 /* MNShineLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MNShineLayer.h; path = Classes/MNShineButton/MNShineLayer.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		969068F57EB140CEBFE7228AFBB70C0F /* MNShineClickLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MNShineClickLayer.h; path = Classes/MNShineButton/MNShineClickLayer.h; sourceTree = "<group>"; };
+		9852024A239268CDD67219EA0D0AD35D /* MNShineButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MNShineButton.m; path = Classes/MNShineButton/MNShineButton.m; sourceTree = "<group>"; };
+		99838068E8DD025BE4435DE7EEEB1F29 /* like.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = like.png; path = Resources/like.png; sourceTree = "<group>"; };
+		B2CAB48550AB57E75C4C32C364A482E0 /* MNShineButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MNShineButton.h; path = Classes/MNShineButton/MNShineButton.h; sourceTree = "<group>"; };
+		B7D2C5B01747F8A956C51DA20806A11D /* smile.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = smile.png; path = Resources/smile.png; sourceTree = "<group>"; };
+		B9FD3CB9FEFA3DCF89661F344C715F55 /* miniKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = miniKit.xcconfig; sourceTree = "<group>"; };
+		BA093E33BE8B9482E8C4697C3390A899 /* Pods-minikit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-minikit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C86A82AA20BE5C57D832F31544619903 /* Pods-minikit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-minikit.debug.xcconfig"; sourceTree = "<group>"; };
+		FA36153384F1A81BBBF9343BC6B35EBC /* MNShineAngleLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MNShineAngleLayer.m; path = Classes/MNShineButton/MNShineAngleLayer.m; sourceTree = "<group>"; };
+		FC794271FFE56B3DA4C541BDD8FB792A /* MNShineParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MNShineParams.h; path = Classes/MNShineButton/MNShineParams.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19C969A6DDB01999C996C9BCBD665C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1402641E849217BB00AAD3FF92B8665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13F03E77FA59A81AD498AE09C09DBE81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CE9A5D78C9F281BB6BA6FBB0DCB5B6A /* libminiKit.a */,
+				0B4E2E342238534ABA0807CEB0DEB840 /* libPods-minikit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		215E1C9C022C0FBC6F58E39B6C137424 /* miniKit */ = {
+			isa = PBXGroup;
+			children = (
+				6B080BBA14D090775901086823309B63 /* miniKit.h */,
+				A9FC1C991ACB25421410E50C001D554A /* MNShineButton */,
+				7308669CD02F3A3994721D0D0987C2E9 /* Resources */,
+				23FF7601C0BAE39137BB75BF40A62100 /* Support Files */,
+			);
+			name = miniKit;
+			path = miniKit;
+			sourceTree = "<group>";
+		};
+		23FF7601C0BAE39137BB75BF40A62100 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9FD3CB9FEFA3DCF89661F344C715F55 /* miniKit.xcconfig */,
+				28DE02FD065402CD7C75BEBDF9125EB4 /* miniKit-dummy.m */,
+				11E6AA312F5C168F88730BFB6D2DD746 /* miniKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/miniKit";
+			sourceTree = "<group>";
+		};
+		7308669CD02F3A3994721D0D0987C2E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37F01E5EA2EC837E81E200A329EE4CE9 /* heart.png */,
+				99838068E8DD025BE4435DE7EEEB1F29 /* like.png */,
+				B7D2C5B01747F8A956C51DA20806A11D /* smile.png */,
+				5815F18950D40E3059BD38D1EFBB1066 /* star.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				CD69905EF27D8208613D648AD6224BD1 /* Pods */,
+				13F03E77FA59A81AD498AE09C09DBE81 /* Products */,
+				913CBABA3E2B56FE2C2143E5D5AC8B8B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		913CBABA3E2B56FE2C2143E5D5AC8B8B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBAA22654D4487A47474B7083F873E03 /* Pods-minikit */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A9FC1C991ACB25421410E50C001D554A /* MNShineButton */ = {
+			isa = PBXGroup;
+			children = (
+				8FFFF7FF5A6BA2C92C2C278A54A2CAB6 /* MNShineAngleLayer.h */,
+				FA36153384F1A81BBBF9343BC6B35EBC /* MNShineAngleLayer.m */,
+				B2CAB48550AB57E75C4C32C364A482E0 /* MNShineButton.h */,
+				9852024A239268CDD67219EA0D0AD35D /* MNShineButton.m */,
+				969068F57EB140CEBFE7228AFBB70C0F /* MNShineClickLayer.h */,
+				839411C57346BE1D988FC82EACC2D580 /* MNShineClickLayer.m */,
+				9353D2EF714BEE985D07BBA1173A8941 /* MNShineLayer.h */,
+				1EF9C8E223D64ABBCC84453FFEE67A86 /* MNShineLayer.m */,
+				FC794271FFE56B3DA4C541BDD8FB792A /* MNShineParams.h */,
+				6E9E08423F2FBFFBF72454B0F8DB5E3C /* MNShineParams.m */,
+			);
+			name = MNShineButton;
+			sourceTree = "<group>";
+		};
+		CD69905EF27D8208613D648AD6224BD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				215E1C9C022C0FBC6F58E39B6C137424 /* miniKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FBAA22654D4487A47474B7083F873E03 /* Pods-minikit */ = {
+			isa = PBXGroup;
+			children = (
+				BA093E33BE8B9482E8C4697C3390A899 /* Pods-minikit-acknowledgements.markdown */,
+				099B34398FCDB43953C538C6E3C8A6E9 /* Pods-minikit-acknowledgements.plist */,
+				084B734648A91F0C68374B91FA9DBD0D /* Pods-minikit-dummy.m */,
+				0C49C98338814F209E4E354B0D5F825E /* Pods-minikit-frameworks.sh */,
+				8822A3B587E7DF3791BC5A9C997C65F3 /* Pods-minikit-resources.sh */,
+				C86A82AA20BE5C57D832F31544619903 /* Pods-minikit.debug.xcconfig */,
+				167949C2E98D3B29FDB6528E0931E7D5 /* Pods-minikit.release.xcconfig */,
+			);
+			name = "Pods-minikit";
+			path = "Target Support Files/Pods-minikit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0568CD6F7CE97AA3F3CF1BD2D4ED058A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A223F64A1D12DE2A3AB55A4987ED771 /* miniKit.h in Headers */,
+				1661C75A14DF28F5598837EEC7CAFAED /* MNShineAngleLayer.h in Headers */,
+				F7C95324C1CBECD5B6B1F675EAF09E3E /* MNShineButton.h in Headers */,
+				3475872869A1282799123918BB4915FB /* MNShineClickLayer.h in Headers */,
+				FAEC052D648E4C2BE46EA0BBA0E946B2 /* MNShineLayer.h in Headers */,
+				CB1954270090F726B00ED8B0CCB8FB31 /* MNShineParams.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		444FDB41CBCFCE83522DE48A134196BD /* miniKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5EC98E2088E450AAC6305D5C5CFB45 /* Build configuration list for PBXNativeTarget "miniKit" */;
+			buildPhases = (
+				A9E521B7D8D0E1781FB22CFAB2C7738B /* Sources */,
+				C1402641E849217BB00AAD3FF92B8665 /* Frameworks */,
+				0568CD6F7CE97AA3F3CF1BD2D4ED058A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = miniKit;
+			productName = miniKit;
+			productReference = 3CE9A5D78C9F281BB6BA6FBB0DCB5B6A /* libminiKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D9227AB2D3EBDF79C2B0AC41BD0834D0 /* Pods-minikit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E376C44057E3F49E4DE57149E25A6FFA /* Build configuration list for PBXNativeTarget "Pods-minikit" */;
+			buildPhases = (
+				14E64CC0F8904397A6EFF732AFEC42C7 /* Sources */,
+				19C969A6DDB01999C996C9BCBD665C4A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B8D395AC976902E39743D8922A24365 /* PBXTargetDependency */,
+			);
+			name = "Pods-minikit";
+			productName = "Pods-minikit";
+			productReference = 0B4E2E342238534ABA0807CEB0DEB840 /* libPods-minikit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 13F03E77FA59A81AD498AE09C09DBE81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				444FDB41CBCFCE83522DE48A134196BD /* miniKit */,
+				D9227AB2D3EBDF79C2B0AC41BD0834D0 /* Pods-minikit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14E64CC0F8904397A6EFF732AFEC42C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5E468279C4858A61E54299316A18D0 /* Pods-minikit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E521B7D8D0E1781FB22CFAB2C7738B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046E2695895330757F20C6FBA667482C /* miniKit-dummy.m in Sources */,
+				E0C5EB3D99307A8856F64EB000EA5C34 /* MNShineAngleLayer.m in Sources */,
+				95CD4139726F733E161B9F6D6B67374A /* MNShineButton.m in Sources */,
+				4A081A99C3636604B0CAEB4AF14638CC /* MNShineClickLayer.m in Sources */,
+				14D156AE7B66329C674B617DDA9DA30D /* MNShineLayer.m in Sources */,
+				ABAE92DC39A3E31939E7560E552639CE /* MNShineParams.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B8D395AC976902E39743D8922A24365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = miniKit;
+			target = 444FDB41CBCFCE83522DE48A134196BD /* miniKit */;
+			targetProxy = A00F77134927B8E11CEE7D900B9A07F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		38F1E3E33D92C2976FD0AC7177A2D0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9FD3CB9FEFA3DCF89661F344C715F55 /* miniKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/miniKit/miniKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = miniKit;
+				PRODUCT_NAME = miniKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C1FCD3276E3534DA6E2095DCE1CEAEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C86A82AA20BE5C57D832F31544619903 /* Pods-minikit.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2CDC1A45F5639FE2EC91BB746166140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 167949C2E98D3B29FDB6528E0931E7D5 /* Pods-minikit.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D40A7EDB7E4F62D5D2230ED51B686C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9FD3CB9FEFA3DCF89661F344C715F55 /* miniKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/miniKit/miniKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = miniKit;
+				PRODUCT_NAME = miniKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5EC98E2088E450AAC6305D5C5CFB45 /* Build configuration list for PBXNativeTarget "miniKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40A7EDB7E4F62D5D2230ED51B686C56 /* Debug */,
+				38F1E3E33D92C2976FD0AC7177A2D0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E376C44057E3F49E4DE57149E25A6FFA /* Build configuration list for PBXNativeTarget "Pods-minikit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1FCD3276E3534DA6E2095DCE1CEAEBD /* Debug */,
+				C2CDC1A45F5639FE2EC91BB746166140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

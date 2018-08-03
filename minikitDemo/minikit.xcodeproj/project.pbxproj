@@ -13,6 +13,7 @@
 		08FA497B20E4ADF300AB92A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08FA497A20E4ADF300AB92A4 /* Assets.xcassets */; };
 		08FA497E20E4ADF300AB92A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08FA497C20E4ADF300AB92A4 /* LaunchScreen.storyboard */; };
 		08FA498120E4ADF300AB92A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FA498020E4ADF300AB92A4 /* main.m */; };
+		D894E266C1D408F5C407A1B3 /* libPods-minikit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EACECCA6B7C4AB10E1C8A6F /* libPods-minikit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		08FA497D20E4ADF300AB92A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08FA497F20E4ADF300AB92A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08FA498020E4ADF300AB92A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F7F752119EE36A062BC6F08 /* Pods-minikit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minikit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-minikit/Pods-minikit.debug.xcconfig"; sourceTree = "<group>"; };
+		8EACECCA6B7C4AB10E1C8A6F /* libPods-minikit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-minikit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA9579E5997D7581DF18C15 /* Pods-minikit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minikit.release.xcconfig"; path = "Pods/Target Support Files/Pods-minikit/Pods-minikit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D894E266C1D408F5C407A1B3 /* libPods-minikit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				08FA497020E4ADF200AB92A4 /* minikit */,
 				08FA496F20E4ADF200AB92A4 /* Products */,
+				59476A77F65F2B07C870FFB1 /* Pods */,
+				3DC0FD5D654CCD474DA1573C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +78,23 @@
 			path = minikit;
 			sourceTree = "<group>";
 		};
+		3DC0FD5D654CCD474DA1573C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EACECCA6B7C4AB10E1C8A6F /* libPods-minikit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59476A77F65F2B07C870FFB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F7F752119EE36A062BC6F08 /* Pods-minikit.debug.xcconfig */,
+				9FA9579E5997D7581DF18C15 /* Pods-minikit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08FA498420E4ADF300AB92A4 /* Build configuration list for PBXNativeTarget "minikit" */;
 			buildPhases = (
+				83BC234DA031387009D9B23F /* [CP] Check Pods Manifest.lock */,
 				08FA496A20E4ADF200AB92A4 /* Sources */,
 				08FA496B20E4ADF200AB92A4 /* Frameworks */,
 				08FA496C20E4ADF200AB92A4 /* Resources */,
+				1F4D39BB1D9FE7534EF9D88C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,6 +161,51 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F4D39BB1D9FE7534EF9D88C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-minikit/Pods-minikit-resources.sh",
+				"${PODS_ROOT}/miniKit/Resources/heart.png",
+				"${PODS_ROOT}/miniKit/Resources/like.png",
+				"${PODS_ROOT}/miniKit/Resources/smile.png",
+				"${PODS_ROOT}/miniKit/Resources/star.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/heart.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/like.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/smile.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/star.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-minikit/Pods-minikit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83BC234DA031387009D9B23F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-minikit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		08FA496A20E4ADF200AB92A4 /* Sources */ = {
@@ -281,6 +352,7 @@
 		};
 		08FA498520E4ADF300AB92A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F7F752119EE36A062BC6F08 /* Pods-minikit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +369,7 @@
 		};
 		08FA498620E4ADF300AB92A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FA9579E5997D7581DF18C15 /* Pods-minikit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

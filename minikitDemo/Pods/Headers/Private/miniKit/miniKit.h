@@ -1,0 +1,1 @@
+../../../miniKit/Classes/miniKit.h

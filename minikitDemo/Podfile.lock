@@ -1,0 +1,18 @@
+PODS:
+  - miniKit (1.0.2):
+    - miniKit/MNShineButton (= 1.0.2)
+  - miniKit/MNShineButton (1.0.2)
+
+DEPENDENCIES:
+  - miniKit (~> 1.0.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - miniKit
+
+SPEC CHECKSUMS:
+  miniKit: 18ec022866a9eb738d10befcb2e94940c85064a6
+
+PODFILE CHECKSUM: 79cf5459b6b0ff52da793e5fc0ccd686cada459a
+
+COCOAPODS: 1.5.3
