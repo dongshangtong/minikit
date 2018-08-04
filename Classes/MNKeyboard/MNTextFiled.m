@@ -109,7 +109,7 @@
         self.text = self.currentString;
     }else{
         
-        NSString * keyBoardString = [NSString stringWithFormat:@"%ld",keyBoardTag -100];
+        NSString * keyBoardString = [NSString stringWithFormat:@"%ld",(long)(keyBoardTag -100)];
         self.currentString = [self.currentString stringByAppendingString:keyBoardString];
         self.text = self.currentString;
     }

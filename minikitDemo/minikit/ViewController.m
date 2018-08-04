@@ -8,7 +8,11 @@
 
 #import "ViewController.h"
 #import "miniKit.h"
+#import "MNTextFiled.h"
+#import "Masonry.h"
 @interface ViewController ()
+@property (nonatomic,strong)  MNTextFiled *textfield;
+
 
 @end
 
@@ -42,8 +46,28 @@
 
     };
     [self.view addSubview:vali];
-
     
+    
+    MNTextFiled *textfield = [[MNTextFiled alloc]initWithFrame:CGRectZero showKeyBoardType:MNPayType];
+    [self.view addSubview:textfield];
+    textfield.placeholder = @"输入支付金额";
+    textfield.font = [UIFont systemFontOfSize:32];
+    textfield.textAlignment = NSTextAlignmentCenter;
+    _textfield = textfield;
+    _textfield.showKeyBoardBackColor = [UIColor lightGrayColor];
+    _textfield.showKeyBoardToolBarTitleString= @"服务多安全支付";
+    _textfield.showKeyBoardToolBarBackColor = [UIColor grayColor];
+    _textfield.showKeyBoardToolBarTitleColor = [UIColor greenColor];
+    _textfield.keyBoardSureItemBackColor = [UIColor orangeColor];
+    _textfield.keyBoardSureItemTextColor = [UIColor whiteColor];
+    _textfield.finishedBtnHidde = YES;
+    [textfield mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(self.view.mas_left).mas_offset(20);
+        make.top.mas_equalTo(self.view.mas_top).mas_offset(200);
+        make.right.mas_equalTo(self.view.mas_right).mas_offset(-20);
+        make.height.mas_equalTo(50);
+    }];
+    textfield.backgroundColor = [UIColor yellowColor];
 }
 
 

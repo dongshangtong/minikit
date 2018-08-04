@@ -7,7 +7,7 @@
 //
 
 #import "MNPayKeyBoard.h"
-
+#import "Masonry.h"
 static NSString *const  defalutText = @"服务多支付安全输入";
 
 @interface MNPayKeyBoard()
@@ -23,6 +23,7 @@ static NSString *const  defalutText = @"服务多支付安全输入";
 @property (nonatomic ,strong)  UIView *bottomView;
 
 @property (nonatomic,strong)  UIButton *sureBtn ;
+@property (nonatomic,strong)  UIButton *deleteBtn ;
 
 
 @end
@@ -63,6 +64,7 @@ static NSString *const  defalutText = @"服务多支付安全输入";
     UIButton *deleteBtn = [UIButton buttonWithType: UIButtonTypeCustom];
     [_rightView addSubview:deleteBtn];
     deleteBtn.tag = 111;
+    _deleteBtn = deleteBtn;
     [deleteBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.right.mas_equalTo(weakSelf.rightView);
         make.height.mas_equalTo(2*H -20 + 2);
@@ -78,8 +80,8 @@ static NSString *const  defalutText = @"服务多支付安全输入";
     sureBtn.tag = 112;
     _sureBtn = sureBtn;
     [sureBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(deleteBtn.mas_bottom).mas_offset(1);
-        make.right.mas_equalTo(deleteBtn.mas_right);
+        make.top.mas_equalTo(weakSelf.deleteBtn.mas_bottom).mas_offset(1);
+        make.right.mas_equalTo(weakSelf.rightView.mas_right);
         make.height.mas_equalTo(2*H +20);
         make.width.mas_equalTo(W);
         make.bottom.mas_equalTo(weakSelf.rightView.mas_bottom).priority(UILayoutPriorityDefaultHigh);

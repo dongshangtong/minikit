@@ -1,7 +1,8 @@
 platform :ios, '10.0'
 target ‘minikit’ do
 
-    pod 'miniKit', '~> 1.0.2'
+    pod 'miniKit'
+    pod 'Masonry'
 
 end
 

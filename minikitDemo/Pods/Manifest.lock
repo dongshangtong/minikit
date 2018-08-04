@@ -1,4 +1,5 @@
 PODS:
+  - Masonry (1.1.0)
   - miniKit (1.0.3):
     - miniKit/MNShineButton (= 1.0.3)
     - miniKit/MNValidationView (= 1.0.3)
@@ -6,15 +7,18 @@ PODS:
   - miniKit/MNValidationView (1.0.3)
 
 DEPENDENCIES:
-  - miniKit (~> 1.0.2)
+  - Masonry
+  - miniKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Masonry
     - miniKit
 
 SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   miniKit: 416cdc081ab7c9df0a2ed661398c5fd4f8c2303d
 
-PODFILE CHECKSUM: 79cf5459b6b0ff52da793e5fc0ccd686cada459a
+PODFILE CHECKSUM: 6ac27e563e71fb324a0761d31250c5c2a0a89dd6
 
 COCOAPODS: 1.5.3
