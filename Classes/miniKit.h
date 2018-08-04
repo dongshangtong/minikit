@@ -14,4 +14,7 @@
 
 #import "MNValidationView.h"
 
+#import "MNMoveButton.h"
+#import "MNTextFiled.h"
+
 #endif /* miniKit_h */

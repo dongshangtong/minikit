@@ -34,7 +34,17 @@ end
 
 end
 
+ s.subspec 'MNKeyboard' do |va|
+ va.source_files = "Classes/MNKeyboard/*.{h,m}"
+
+end
+
+ s.subspec 'MNMovableButton' do |va|
+ va.source_files = "Classes/MNMovableButton/*.{h,m}"
+
+end
+
   s.resources = "Resources/*.png"
   s.requires_arc = true
- # s.dependency "JSONKit", "~> 1.4"
+  s.dependency "Masonry"
 end
