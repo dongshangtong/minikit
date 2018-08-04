@@ -1,7 +1,9 @@
 PODS:
-  - miniKit (1.0.2):
-    - miniKit/MNShineButton (= 1.0.2)
-  - miniKit/MNShineButton (1.0.2)
+  - miniKit (1.0.3):
+    - miniKit/MNShineButton (= 1.0.3)
+    - miniKit/MNValidationView (= 1.0.3)
+  - miniKit/MNShineButton (1.0.3)
+  - miniKit/MNValidationView (1.0.3)
 
 DEPENDENCIES:
   - miniKit (~> 1.0.2)
@@ -11,7 +13,7 @@ SPEC REPOS:
     - miniKit
 
 SPEC CHECKSUMS:
-  miniKit: 18ec022866a9eb738d10befcb2e94940c85064a6
+  miniKit: 416cdc081ab7c9df0a2ed661398c5fd4f8c2303d
 
 PODFILE CHECKSUM: 79cf5459b6b0ff52da793e5fc0ccd686cada459a
 

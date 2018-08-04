@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		046E2695895330757F20C6FBA667482C /* miniKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DE02FD065402CD7C75BEBDF9125EB4 /* miniKit-dummy.m */; };
-		14D156AE7B66329C674B617DDA9DA30D /* MNShineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF9C8E223D64ABBCC84453FFEE67A86 /* MNShineLayer.m */; };
-		1661C75A14DF28F5598837EEC7CAFAED /* MNShineAngleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FFFF7FF5A6BA2C92C2C278A54A2CAB6 /* MNShineAngleLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3475872869A1282799123918BB4915FB /* MNShineClickLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 969068F57EB140CEBFE7228AFBB70C0F /* MNShineClickLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4A081A99C3636604B0CAEB4AF14638CC /* MNShineClickLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 839411C57346BE1D988FC82EACC2D580 /* MNShineClickLayer.m */; };
-		8A223F64A1D12DE2A3AB55A4987ED771 /* miniKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B080BBA14D090775901086823309B63 /* miniKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		95CD4139726F733E161B9F6D6B67374A /* MNShineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9852024A239268CDD67219EA0D0AD35D /* MNShineButton.m */; };
+		0F12E30BE1A4F9FBFC91B0D89A79DE86 /* MNValidationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1539DA9B1EE0CE11B592369A0E3B12A5 /* MNValidationView.m */; };
+		1BF4C9F675E0EC40F0268A8709E4441D /* MNShineAngleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EB17EA242DDB9DC8A6B988F55F2103 /* MNShineAngleLayer.m */; };
+		25ED0AC06C9EE57E54AB1BEE2AB0D399 /* MNShineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5F15950721B6D21F8FC7EDD142BC83 /* MNShineLayer.m */; };
+		46BEC0C265A041E0CC307FB73B89D28A /* MNShineAngleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = A2696186BD0F4D2BC82547FAC20B55D3 /* MNShineAngleLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7A1E16E130B8324DBA32A3DD2137D7F4 /* MNShineLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 809AEC785BC79276204F46D4D61E2DEB /* MNShineLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7F2AA51A781FA9C9180630E4D3218113 /* MNShineButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 59CB30A2D6C8444BA35EBEAD2CF7B460 /* MNShineButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		87D31D9A6FC56DB4CF2E62B75C615EF8 /* miniKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69258BF2E6CE8651F30B752D5AE8240C /* miniKit-dummy.m */; };
+		8BA35B567E010A849B1205E888AD7B91 /* MNValidationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 43581CD6A2E02552828461211E4A64CF /* MNValidationView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8D6C642F54D50B4C300B3879D8715A1C /* MNShineParams.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C771C44F33251C1ED8B18EB84D6DC /* MNShineParams.m */; };
+		8E6303A8ED28E801665F6707DDFD70D1 /* MNShineClickLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = D633560F24169CF237D92A20BBD7DD13 /* MNShineClickLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F9D0E5ABAD860317408322166C48F58 /* MNShineParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F62842FA01D6A6D2563FB94685E4019 /* MNShineParams.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9E5E468279C4858A61E54299316A18D0 /* Pods-minikit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 084B734648A91F0C68374B91FA9DBD0D /* Pods-minikit-dummy.m */; };
-		ABAE92DC39A3E31939E7560E552639CE /* MNShineParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9E08423F2FBFFBF72454B0F8DB5E3C /* MNShineParams.m */; };
-		CB1954270090F726B00ED8B0CCB8FB31 /* MNShineParams.h in Headers */ = {isa = PBXBuildFile; fileRef = FC794271FFE56B3DA4C541BDD8FB792A /* MNShineParams.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E0C5EB3D99307A8856F64EB000EA5C34 /* MNShineAngleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA36153384F1A81BBBF9343BC6B35EBC /* MNShineAngleLayer.m */; };
-		F7C95324C1CBECD5B6B1F675EAF09E3E /* MNShineButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B2CAB48550AB57E75C4C32C364A482E0 /* MNShineButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FAEC052D648E4C2BE46EA0BBA0E946B2 /* MNShineLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9353D2EF714BEE985D07BBA1173A8941 /* MNShineLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A42847D5D67E94B6220BAD59DA387D4A /* MNShineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1673D93670A4C9B716FA95B8A4CD6B38 /* MNShineButton.m */; };
+		D61E6C56E600B7441E4F54ECED591734 /* miniKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 71E0261C137E068AB484E3FC8EDEE89D /* miniKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F037320F6A5B1212E56D328F3CD082B4 /* MNShineClickLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 51466D99DFC09F87F6F5BA6F9163BFE5 /* MNShineClickLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +29,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 444FDB41CBCFCE83522DE48A134196BD;
+			remoteGlobalIDString = 74AFB0C9A223D0A3EEF58E2BB77F27A3;
 			remoteInfo = miniKit;
 		};
 /* End PBXContainerItemProxy section */
@@ -37,30 +39,32 @@
 		099B34398FCDB43953C538C6E3C8A6E9 /* Pods-minikit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-minikit-acknowledgements.plist"; sourceTree = "<group>"; };
 		0B4E2E342238534ABA0807CEB0DEB840 /* libPods-minikit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-minikit.a"; path = "libPods-minikit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C49C98338814F209E4E354B0D5F825E /* Pods-minikit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-minikit-frameworks.sh"; sourceTree = "<group>"; };
-		11E6AA312F5C168F88730BFB6D2DD746 /* miniKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "miniKit-prefix.pch"; sourceTree = "<group>"; };
+		0D83CF5AF45A97648B88AEC07BB6D575 /* smile.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = smile.png; path = Resources/smile.png; sourceTree = "<group>"; };
+		1539DA9B1EE0CE11B592369A0E3B12A5 /* MNValidationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MNValidationView.m; path = Classes/MNValidationView/MNValidationView.m; sourceTree = "<group>"; };
+		1673D93670A4C9B716FA95B8A4CD6B38 /* MNShineButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MNShineButton.m; path = Classes/MNShineButton/MNShineButton.m; sourceTree = "<group>"; };
 		167949C2E98D3B29FDB6528E0931E7D5 /* Pods-minikit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-minikit.release.xcconfig"; sourceTree = "<group>"; };
-		1EF9C8E223D64ABBCC84453FFEE67A86 /* MNShineLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MNShineLayer.m; path = Classes/MNShineButton/MNShineLayer.m; sourceTree = "<group>"; };
-		28DE02FD065402CD7C75BEBDF9125EB4 /* miniKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "miniKit-dummy.m"; sourceTree = "<group>"; };
-		37F01E5EA2EC837E81E200A329EE4CE9 /* heart.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = heart.png; path = Resources/heart.png; sourceTree = "<group>"; };
+		24EB17EA242DDB9DC8A6B988F55F2103 /* MNShineAngleLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MNShineAngleLayer.m; path = Classes/MNShineButton/MNShineAngleLayer.m; sourceTree = "<group>"; };
 		3CE9A5D78C9F281BB6BA6FBB0DCB5B6A /* libminiKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libminiKit.a; path = libminiKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5815F18950D40E3059BD38D1EFBB1066 /* star.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = star.png; path = Resources/star.png; sourceTree = "<group>"; };
-		6B080BBA14D090775901086823309B63 /* miniKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = miniKit.h; path = Classes/miniKit.h; sourceTree = "<group>"; };
-		6E9E08423F2FBFFBF72454B0F8DB5E3C /* MNShineParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MNShineParams.m; path = Classes/MNShineButton/MNShineParams.m; sourceTree = "<group>"; };
-		839411C57346BE1D988FC82EACC2D580 /* MNShineClickLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MNShineClickLayer.m; path = Classes/MNShineButton/MNShineClickLayer.m; sourceTree = "<group>"; };
+		43581CD6A2E02552828461211E4A64CF /* MNValidationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MNValidationView.h; path = Classes/MNValidationView/MNValidationView.h; sourceTree = "<group>"; };
+		4DC0813365130D261BF398D3D57D5BFD /* heart.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = heart.png; path = Resources/heart.png; sourceTree = "<group>"; };
+		4E5F15950721B6D21F8FC7EDD142BC83 /* MNShineLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MNShineLayer.m; path = Classes/MNShineButton/MNShineLayer.m; sourceTree = "<group>"; };
+		51466D99DFC09F87F6F5BA6F9163BFE5 /* MNShineClickLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MNShineClickLayer.m; path = Classes/MNShineButton/MNShineClickLayer.m; sourceTree = "<group>"; };
+		59CB30A2D6C8444BA35EBEAD2CF7B460 /* MNShineButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MNShineButton.h; path = Classes/MNShineButton/MNShineButton.h; sourceTree = "<group>"; };
+		644B7093A29CEC9740153A91105BAC16 /* like.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = like.png; path = Resources/like.png; sourceTree = "<group>"; };
+		69258BF2E6CE8651F30B752D5AE8240C /* miniKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "miniKit-dummy.m"; sourceTree = "<group>"; };
+		6F62842FA01D6A6D2563FB94685E4019 /* MNShineParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MNShineParams.h; path = Classes/MNShineButton/MNShineParams.h; sourceTree = "<group>"; };
+		71E0261C137E068AB484E3FC8EDEE89D /* miniKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = miniKit.h; path = Classes/miniKit.h; sourceTree = "<group>"; };
+		809AEC785BC79276204F46D4D61E2DEB /* MNShineLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MNShineLayer.h; path = Classes/MNShineButton/MNShineLayer.h; sourceTree = "<group>"; };
 		8822A3B587E7DF3791BC5A9C997C65F3 /* Pods-minikit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-minikit-resources.sh"; sourceTree = "<group>"; };
-		8FFFF7FF5A6BA2C92C2C278A54A2CAB6 /* MNShineAngleLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MNShineAngleLayer.h; path = Classes/MNShineButton/MNShineAngleLayer.h; sourceTree = "<group>"; };
-		9353D2EF714BEE985D07BBA1173A8941 /* MNShineLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MNShineLayer.h; path = Classes/MNShineButton/MNShineLayer.h; sourceTree = "<group>"; };
+		92AC206097F38DE26B31D1CD6A1AE6F2 /* miniKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "miniKit-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		969068F57EB140CEBFE7228AFBB70C0F /* MNShineClickLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MNShineClickLayer.h; path = Classes/MNShineButton/MNShineClickLayer.h; sourceTree = "<group>"; };
-		9852024A239268CDD67219EA0D0AD35D /* MNShineButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MNShineButton.m; path = Classes/MNShineButton/MNShineButton.m; sourceTree = "<group>"; };
-		99838068E8DD025BE4435DE7EEEB1F29 /* like.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = like.png; path = Resources/like.png; sourceTree = "<group>"; };
-		B2CAB48550AB57E75C4C32C364A482E0 /* MNShineButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MNShineButton.h; path = Classes/MNShineButton/MNShineButton.h; sourceTree = "<group>"; };
-		B7D2C5B01747F8A956C51DA20806A11D /* smile.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = smile.png; path = Resources/smile.png; sourceTree = "<group>"; };
-		B9FD3CB9FEFA3DCF89661F344C715F55 /* miniKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = miniKit.xcconfig; sourceTree = "<group>"; };
+		A2696186BD0F4D2BC82547FAC20B55D3 /* MNShineAngleLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MNShineAngleLayer.h; path = Classes/MNShineButton/MNShineAngleLayer.h; sourceTree = "<group>"; };
 		BA093E33BE8B9482E8C4697C3390A899 /* Pods-minikit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-minikit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C0F7F6FAF4DC99F4E925594B8CB732E1 /* star.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = star.png; path = Resources/star.png; sourceTree = "<group>"; };
 		C86A82AA20BE5C57D832F31544619903 /* Pods-minikit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-minikit.debug.xcconfig"; sourceTree = "<group>"; };
-		FA36153384F1A81BBBF9343BC6B35EBC /* MNShineAngleLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MNShineAngleLayer.m; path = Classes/MNShineButton/MNShineAngleLayer.m; sourceTree = "<group>"; };
-		FC794271FFE56B3DA4C541BDD8FB792A /* MNShineParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MNShineParams.h; path = Classes/MNShineButton/MNShineParams.h; sourceTree = "<group>"; };
+		CCB4DE88A379EBD549818CD09D43B059 /* miniKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = miniKit.xcconfig; sourceTree = "<group>"; };
+		D633560F24169CF237D92A20BBD7DD13 /* MNShineClickLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MNShineClickLayer.h; path = Classes/MNShineButton/MNShineClickLayer.h; sourceTree = "<group>"; };
+		E47C771C44F33251C1ED8B18EB84D6DC /* MNShineParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MNShineParams.m; path = Classes/MNShineButton/MNShineParams.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +75,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1402641E849217BB00AAD3FF92B8665 /* Frameworks */ = {
+		A1A95281469148193290E5CACFA364CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -97,38 +101,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		215E1C9C022C0FBC6F58E39B6C137424 /* miniKit */ = {
+		176596DD6909C0F3E32B7792B987C33B /* MNValidationView */ = {
 			isa = PBXGroup;
 			children = (
-				6B080BBA14D090775901086823309B63 /* miniKit.h */,
-				A9FC1C991ACB25421410E50C001D554A /* MNShineButton */,
-				7308669CD02F3A3994721D0D0987C2E9 /* Resources */,
-				23FF7601C0BAE39137BB75BF40A62100 /* Support Files */,
+				43581CD6A2E02552828461211E4A64CF /* MNValidationView.h */,
+				1539DA9B1EE0CE11B592369A0E3B12A5 /* MNValidationView.m */,
 			);
-			name = miniKit;
-			path = miniKit;
-			sourceTree = "<group>";
-		};
-		23FF7601C0BAE39137BB75BF40A62100 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B9FD3CB9FEFA3DCF89661F344C715F55 /* miniKit.xcconfig */,
-				28DE02FD065402CD7C75BEBDF9125EB4 /* miniKit-dummy.m */,
-				11E6AA312F5C168F88730BFB6D2DD746 /* miniKit-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/miniKit";
-			sourceTree = "<group>";
-		};
-		7308669CD02F3A3994721D0D0987C2E9 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				37F01E5EA2EC837E81E200A329EE4CE9 /* heart.png */,
-				99838068E8DD025BE4435DE7EEEB1F29 /* like.png */,
-				B7D2C5B01747F8A956C51DA20806A11D /* smile.png */,
-				5815F18950D40E3059BD38D1EFBB1066 /* star.png */,
-			);
-			name = Resources;
+			name = MNValidationView;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -136,7 +115,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				CD69905EF27D8208613D648AD6224BD1 /* Pods */,
+				F9FEC03D9BE5CA2F8F944534D6AE0B37 /* Pods */,
 				13F03E77FA59A81AD498AE09C09DBE81 /* Products */,
 				913CBABA3E2B56FE2C2143E5D5AC8B8B /* Targets Support Files */,
 			);
@@ -150,27 +129,51 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A9FC1C991ACB25421410E50C001D554A /* MNShineButton */ = {
+		A3930CD0A03859F8A1B91330A7E0AF03 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8FFFF7FF5A6BA2C92C2C278A54A2CAB6 /* MNShineAngleLayer.h */,
-				FA36153384F1A81BBBF9343BC6B35EBC /* MNShineAngleLayer.m */,
-				B2CAB48550AB57E75C4C32C364A482E0 /* MNShineButton.h */,
-				9852024A239268CDD67219EA0D0AD35D /* MNShineButton.m */,
-				969068F57EB140CEBFE7228AFBB70C0F /* MNShineClickLayer.h */,
-				839411C57346BE1D988FC82EACC2D580 /* MNShineClickLayer.m */,
-				9353D2EF714BEE985D07BBA1173A8941 /* MNShineLayer.h */,
-				1EF9C8E223D64ABBCC84453FFEE67A86 /* MNShineLayer.m */,
-				FC794271FFE56B3DA4C541BDD8FB792A /* MNShineParams.h */,
-				6E9E08423F2FBFFBF72454B0F8DB5E3C /* MNShineParams.m */,
+				CCB4DE88A379EBD549818CD09D43B059 /* miniKit.xcconfig */,
+				69258BF2E6CE8651F30B752D5AE8240C /* miniKit-dummy.m */,
+				92AC206097F38DE26B31D1CD6A1AE6F2 /* miniKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/miniKit";
+			sourceTree = "<group>";
+		};
+		B05E1848926625F57178536B88203C2D /* MNShineButton */ = {
+			isa = PBXGroup;
+			children = (
+				A2696186BD0F4D2BC82547FAC20B55D3 /* MNShineAngleLayer.h */,
+				24EB17EA242DDB9DC8A6B988F55F2103 /* MNShineAngleLayer.m */,
+				59CB30A2D6C8444BA35EBEAD2CF7B460 /* MNShineButton.h */,
+				1673D93670A4C9B716FA95B8A4CD6B38 /* MNShineButton.m */,
+				D633560F24169CF237D92A20BBD7DD13 /* MNShineClickLayer.h */,
+				51466D99DFC09F87F6F5BA6F9163BFE5 /* MNShineClickLayer.m */,
+				809AEC785BC79276204F46D4D61E2DEB /* MNShineLayer.h */,
+				4E5F15950721B6D21F8FC7EDD142BC83 /* MNShineLayer.m */,
+				6F62842FA01D6A6D2563FB94685E4019 /* MNShineParams.h */,
+				E47C771C44F33251C1ED8B18EB84D6DC /* MNShineParams.m */,
 			);
 			name = MNShineButton;
 			sourceTree = "<group>";
 		};
-		CD69905EF27D8208613D648AD6224BD1 /* Pods */ = {
+		EFABB56616CFF42D71C5349B7A2427BD /* miniKit */ = {
 			isa = PBXGroup;
 			children = (
-				215E1C9C022C0FBC6F58E39B6C137424 /* miniKit */,
+				71E0261C137E068AB484E3FC8EDEE89D /* miniKit.h */,
+				B05E1848926625F57178536B88203C2D /* MNShineButton */,
+				176596DD6909C0F3E32B7792B987C33B /* MNValidationView */,
+				FD2BACD6B2FC236673C1C59F2E9916C2 /* Resources */,
+				A3930CD0A03859F8A1B91330A7E0AF03 /* Support Files */,
+			);
+			name = miniKit;
+			path = miniKit;
+			sourceTree = "<group>";
+		};
+		F9FEC03D9BE5CA2F8F944534D6AE0B37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFABB56616CFF42D71C5349B7A2427BD /* miniKit */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -190,32 +193,44 @@
 			path = "Target Support Files/Pods-minikit";
 			sourceTree = "<group>";
 		};
+		FD2BACD6B2FC236673C1C59F2E9916C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4DC0813365130D261BF398D3D57D5BFD /* heart.png */,
+				644B7093A29CEC9740153A91105BAC16 /* like.png */,
+				0D83CF5AF45A97648B88AEC07BB6D575 /* smile.png */,
+				C0F7F6FAF4DC99F4E925594B8CB732E1 /* star.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0568CD6F7CE97AA3F3CF1BD2D4ED058A /* Headers */ = {
+		BF7B9ABFF009A9E683CC97543DFB2BC3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A223F64A1D12DE2A3AB55A4987ED771 /* miniKit.h in Headers */,
-				1661C75A14DF28F5598837EEC7CAFAED /* MNShineAngleLayer.h in Headers */,
-				F7C95324C1CBECD5B6B1F675EAF09E3E /* MNShineButton.h in Headers */,
-				3475872869A1282799123918BB4915FB /* MNShineClickLayer.h in Headers */,
-				FAEC052D648E4C2BE46EA0BBA0E946B2 /* MNShineLayer.h in Headers */,
-				CB1954270090F726B00ED8B0CCB8FB31 /* MNShineParams.h in Headers */,
+				D61E6C56E600B7441E4F54ECED591734 /* miniKit.h in Headers */,
+				46BEC0C265A041E0CC307FB73B89D28A /* MNShineAngleLayer.h in Headers */,
+				7F2AA51A781FA9C9180630E4D3218113 /* MNShineButton.h in Headers */,
+				8E6303A8ED28E801665F6707DDFD70D1 /* MNShineClickLayer.h in Headers */,
+				7A1E16E130B8324DBA32A3DD2137D7F4 /* MNShineLayer.h in Headers */,
+				8F9D0E5ABAD860317408322166C48F58 /* MNShineParams.h in Headers */,
+				8BA35B567E010A849B1205E888AD7B91 /* MNValidationView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		444FDB41CBCFCE83522DE48A134196BD /* miniKit */ = {
+		74AFB0C9A223D0A3EEF58E2BB77F27A3 /* miniKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF5EC98E2088E450AAC6305D5C5CFB45 /* Build configuration list for PBXNativeTarget "miniKit" */;
+			buildConfigurationList = DFD4E897A050E82A65CB43A9483EF56B /* Build configuration list for PBXNativeTarget "miniKit" */;
 			buildPhases = (
-				A9E521B7D8D0E1781FB22CFAB2C7738B /* Sources */,
-				C1402641E849217BB00AAD3FF92B8665 /* Frameworks */,
-				0568CD6F7CE97AA3F3CF1BD2D4ED058A /* Headers */,
+				1AE70BA7061223A609928C3751CF9710 /* Sources */,
+				A1A95281469148193290E5CACFA364CD /* Frameworks */,
+				BF7B9ABFF009A9E683CC97543DFB2BC3 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -264,7 +279,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				444FDB41CBCFCE83522DE48A134196BD /* miniKit */,
+				74AFB0C9A223D0A3EEF58E2BB77F27A3 /* miniKit */,
 				D9227AB2D3EBDF79C2B0AC41BD0834D0 /* Pods-minikit */,
 			);
 		};
@@ -279,16 +294,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9E521B7D8D0E1781FB22CFAB2C7738B /* Sources */ = {
+		1AE70BA7061223A609928C3751CF9710 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				046E2695895330757F20C6FBA667482C /* miniKit-dummy.m in Sources */,
-				E0C5EB3D99307A8856F64EB000EA5C34 /* MNShineAngleLayer.m in Sources */,
-				95CD4139726F733E161B9F6D6B67374A /* MNShineButton.m in Sources */,
-				4A081A99C3636604B0CAEB4AF14638CC /* MNShineClickLayer.m in Sources */,
-				14D156AE7B66329C674B617DDA9DA30D /* MNShineLayer.m in Sources */,
-				ABAE92DC39A3E31939E7560E552639CE /* MNShineParams.m in Sources */,
+				87D31D9A6FC56DB4CF2E62B75C615EF8 /* miniKit-dummy.m in Sources */,
+				1BF4C9F675E0EC40F0268A8709E4441D /* MNShineAngleLayer.m in Sources */,
+				A42847D5D67E94B6220BAD59DA387D4A /* MNShineButton.m in Sources */,
+				F037320F6A5B1212E56D328F3CD082B4 /* MNShineClickLayer.m in Sources */,
+				25ED0AC06C9EE57E54AB1BEE2AB0D399 /* MNShineLayer.m in Sources */,
+				8D6C642F54D50B4C300B3879D8715A1C /* MNShineParams.m in Sources */,
+				0F12E30BE1A4F9FBFC91B0D89A79DE86 /* MNValidationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,37 +314,12 @@
 		4B8D395AC976902E39743D8922A24365 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = miniKit;
-			target = 444FDB41CBCFCE83522DE48A134196BD /* miniKit */;
+			target = 74AFB0C9A223D0A3EEF58E2BB77F27A3 /* miniKit */;
 			targetProxy = A00F77134927B8E11CEE7D900B9A07F1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		38F1E3E33D92C2976FD0AC7177A2D0CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9FD3CB9FEFA3DCF89661F344C715F55 /* miniKit.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/miniKit/miniKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = miniKit;
-				PRODUCT_NAME = miniKit;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -495,9 +486,9 @@
 			};
 			name = Release;
 		};
-		D40A7EDB7E4F62D5D2230ED51B686C56 /* Debug */ = {
+		D1326A942D90CAA767E774085343C004 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9FD3CB9FEFA3DCF89661F344C715F55 /* miniKit.xcconfig */;
+			baseConfigurationReference = CCB4DE88A379EBD549818CD09D43B059 /* miniKit.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -519,6 +510,31 @@
 			};
 			name = Debug;
 		};
+		D8F45E663E9B90E9034BAB25912EB11C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB4DE88A379EBD549818CD09D43B059 /* miniKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/miniKit/miniKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = miniKit;
+				PRODUCT_NAME = miniKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -531,11 +547,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF5EC98E2088E450AAC6305D5C5CFB45 /* Build configuration list for PBXNativeTarget "miniKit" */ = {
+		DFD4E897A050E82A65CB43A9483EF56B /* Build configuration list for PBXNativeTarget "miniKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D40A7EDB7E4F62D5D2230ED51B686C56 /* Debug */,
-				38F1E3E33D92C2976FD0AC7177A2D0CB /* Release */,
+				D1326A942D90CAA767E774085343C004 /* Debug */,
+				D8F45E663E9B90E9034BAB25912EB11C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -12,5 +12,6 @@
 #import "MNShineButton.h"
 #import "MNShineParams.h"
 
+#import "MNValidationView.h"
 
 #endif /* miniKit_h */
