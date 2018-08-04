@@ -1,10 +1,19 @@
 PODS:
   - Masonry (1.1.0)
-  - miniKit (1.0.3):
-    - miniKit/MNShineButton (= 1.0.3)
-    - miniKit/MNValidationView (= 1.0.3)
-  - miniKit/MNShineButton (1.0.3)
-  - miniKit/MNValidationView (1.0.3)
+  - miniKit (1.0.5):
+    - Masonry
+    - miniKit/MNKeyboard (= 1.0.5)
+    - miniKit/MNMovableButton (= 1.0.5)
+    - miniKit/MNShineButton (= 1.0.5)
+    - miniKit/MNValidationView (= 1.0.5)
+  - miniKit/MNKeyboard (1.0.5):
+    - Masonry
+  - miniKit/MNMovableButton (1.0.5):
+    - Masonry
+  - miniKit/MNShineButton (1.0.5):
+    - Masonry
+  - miniKit/MNValidationView (1.0.5):
+    - Masonry
 
 DEPENDENCIES:
   - Masonry
@@ -17,7 +26,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  miniKit: 416cdc081ab7c9df0a2ed661398c5fd4f8c2303d
+  miniKit: d4d5826a0b29dd20e6cfd67b7f5f6ea6d2f48340
 
 PODFILE CHECKSUM: 6ac27e563e71fb324a0761d31250c5c2a0a89dd6
 

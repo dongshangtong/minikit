@@ -96,12 +96,16 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/miniKit/Resources/like.png"
   install_resource "${PODS_ROOT}/miniKit/Resources/smile.png"
   install_resource "${PODS_ROOT}/miniKit/Resources/star.png"
+  install_resource "${PODS_ROOT}/miniKit/Resources/删除@2x.png"
+  install_resource "${PODS_ROOT}/miniKit/Resources/删除@3x.png"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/miniKit/Resources/heart.png"
   install_resource "${PODS_ROOT}/miniKit/Resources/like.png"
   install_resource "${PODS_ROOT}/miniKit/Resources/smile.png"
   install_resource "${PODS_ROOT}/miniKit/Resources/star.png"
+  install_resource "${PODS_ROOT}/miniKit/Resources/删除@2x.png"
+  install_resource "${PODS_ROOT}/miniKit/Resources/删除@3x.png"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

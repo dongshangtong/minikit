@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "miniKit.h"
-#import "MNTextFiled.h"
 #import "Masonry.h"
 @interface ViewController ()
 @property (nonatomic,strong)  MNTextFiled *textfield;
