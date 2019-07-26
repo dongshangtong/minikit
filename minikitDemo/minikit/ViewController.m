@@ -67,6 +67,13 @@
         make.height.mas_equalTo(50);
     }];
     textfield.backgroundColor = [UIColor yellowColor];
+    
+    
+    
+    CycleImageView *cycleImageView = [[CycleImageView alloc]initWithFrame:CGRectMake(0, 300, UIScreen.mainScreen.bounds.size.width, 240)];
+    cycleImageView.timeInterval = 2;
+    cycleImageView.images = @[@"banar0",@"banar1"];
+    [self.view addSubview:cycleImageView];
 }
 
 

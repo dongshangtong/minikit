@@ -1,18 +1,21 @@
 PODS:
   - Masonry (1.1.0)
-  - miniKit (1.0.5):
+  - miniKit (1.0.6):
     - Masonry
-    - miniKit/MNKeyboard (= 1.0.5)
-    - miniKit/MNMovableButton (= 1.0.5)
-    - miniKit/MNShineButton (= 1.0.5)
-    - miniKit/MNValidationView (= 1.0.5)
-  - miniKit/MNKeyboard (1.0.5):
+    - miniKit/CycleImageView (= 1.0.6)
+    - miniKit/MNKeyboard (= 1.0.6)
+    - miniKit/MNMovableButton (= 1.0.6)
+    - miniKit/MNShineButton (= 1.0.6)
+    - miniKit/MNValidationView (= 1.0.6)
+  - miniKit/CycleImageView (1.0.6):
     - Masonry
-  - miniKit/MNMovableButton (1.0.5):
+  - miniKit/MNKeyboard (1.0.6):
     - Masonry
-  - miniKit/MNShineButton (1.0.5):
+  - miniKit/MNMovableButton (1.0.6):
     - Masonry
-  - miniKit/MNValidationView (1.0.5):
+  - miniKit/MNShineButton (1.0.6):
+    - Masonry
+  - miniKit/MNValidationView (1.0.6):
     - Masonry
 
 DEPENDENCIES:
@@ -26,8 +29,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  miniKit: d4d5826a0b29dd20e6cfd67b7f5f6ea6d2f48340
+  miniKit: 6ea669d8ccb6c82bdae259b4d76974e610376f96
 
-PODFILE CHECKSUM: 4ce75e377b6ddc1f9cb4d7117983793bc9d4d529
+PODFILE CHECKSUM: c9d6cca9dd920a375b9fae9dfcd79420920866ae
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.7.5

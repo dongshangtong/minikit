@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "miniKit"
-  s.version      = "1.0.5"
+  s.version      = "1.0.7"
   s.summary      = "ios开发常用工具或分类"
   s.description  = <<-DESC
 
@@ -14,8 +14,8 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "dongshangtong" => "dongshangtong@gmail.com" }
   s.platform     = :ios
-  s.platform     = :ios, "10.0"
-  s.ios.deployment_target = "10.0"
+  s.platform     = :ios, "11.0"
+  s.ios.deployment_target = "11.0"
   s.source       = { :git => "https://github.com/dongshangtong/minikit.git", :tag => "#{s.version}" }
  # s.source_files  = "Classes", "Classes/**/*.{h,m}"
  # s.public_header_files = "Classes/**/*.h"
@@ -25,26 +25,32 @@ Pod::Spec.new do |s|
 
 
  s.subspec 'MNShineButton' do |sh|
- sh.source_files = "Classes/MNShineButton/*.{h,m}"
+ sh.source_files = "Classes/MNShineButton/*.{h,m,xib}"
 
 end
 
  s.subspec 'MNValidationView' do |va|
- va.source_files = "Classes/MNValidationView/*.{h,m}"
+ va.source_files = "Classes/MNValidationView/*.{h,m,xib}"
 
 end
 
  s.subspec 'MNKeyboard' do |va|
- va.source_files = "Classes/MNKeyboard/*.{h,m}"
+ va.source_files = "Classes/MNKeyboard/*.{h,m,xib}"
 
 end
 
  s.subspec 'MNMovableButton' do |va|
- va.source_files = "Classes/MNMovableButton/*.{h,m}"
+ va.source_files = "Classes/MNMovableButton/*.{h,m,xib}"
+
+end
+
+ s.subspec 'MNCycleImageView' do |va|
+ va.source_files = "Classes/MNCycleImageView/*.{h,m,xib}"
 
 end
 
   s.resources = "Resources/*.png"
   s.requires_arc = true
   s.dependency "Masonry"
+  s.dependency "SDWebImage"
 end
