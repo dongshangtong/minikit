@@ -11,8 +11,6 @@
 #import "MNCycleImageViewCell.h"
 #import "MNCycleImageViewPageControl.h"
 
-#import "CycleImageViewCell.h"
-
 #define kPageControl_H      40
 
 //#define kCellIdentifier     @"CycleImageViewCell"

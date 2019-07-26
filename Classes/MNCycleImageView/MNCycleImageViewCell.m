@@ -12,6 +12,7 @@
 
 
 #import "MNCycleImageViewCell.h"
+#import "UIImageView+WebCache.h"
 
 @interface MNCycleImageViewCell()
 
