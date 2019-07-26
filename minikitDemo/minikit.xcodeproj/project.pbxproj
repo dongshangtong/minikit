@@ -106,7 +106,7 @@
 				08FA496A20E4ADF200AB92A4 /* Sources */,
 				08FA496B20E4ADF200AB92A4 /* Frameworks */,
 				08FA496C20E4ADF200AB92A4 /* Resources */,
-				1F4D39BB1D9FE7534EF9D88C /* [CP] Copy Pods Resources */,
+				48A8EA3171213BCE242B5650 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,32 +163,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1F4D39BB1D9FE7534EF9D88C /* [CP] Copy Pods Resources */ = {
+		48A8EA3171213BCE242B5650 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-minikit/Pods-minikit-resources.sh",
-				"${PODS_ROOT}/miniKit/Resources/heart.png",
-				"${PODS_ROOT}/miniKit/Resources/like.png",
-				"${PODS_ROOT}/miniKit/Resources/smile.png",
-				"${PODS_ROOT}/miniKit/Resources/star.png",
-				"${PODS_ROOT}/miniKit/Resources/删除@2x.png",
-				"${PODS_ROOT}/miniKit/Resources/删除@3x.png",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-minikit/Pods-minikit-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/heart.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/like.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/smile.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/star.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/删除@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/删除@3x.png",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-minikit/Pods-minikit-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-minikit/Pods-minikit-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-minikit/Pods-minikit-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		83BC234DA031387009D9B23F /* [CP] Check Pods Manifest.lock */ = {
@@ -360,8 +349,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SRQ2BWZ74N;
 				INFOPLIST_FILE = minikit/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.dongshangtong.minikit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -374,8 +367,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SRQ2BWZ74N;
 				INFOPLIST_FILE = minikit/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.dongshangtong.minikit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

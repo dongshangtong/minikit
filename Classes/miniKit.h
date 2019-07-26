@@ -17,4 +17,6 @@
 #import "MNMoveButton.h"
 #import "MNTextFiled.h"
 
+#import "CycleImageView.h"
+
 #endif /* miniKit_h */
