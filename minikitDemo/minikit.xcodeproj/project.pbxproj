@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		087D290022EEDEEC003F79CB /* MNCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 087D28FF22EEDEEC003F79CB /* MNCountDown.m */; };
+		087D290322EEE48B003F79CB /* NSString+MNString.m in Sources */ = {isa = PBXBuildFile; fileRef = 087D290222EEE48B003F79CB /* NSString+MNString.m */; };
 		08FA497320E4ADF200AB92A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FA497220E4ADF200AB92A4 /* AppDelegate.m */; };
 		08FA497620E4ADF200AB92A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FA497520E4ADF200AB92A4 /* ViewController.m */; };
 		08FA497920E4ADF200AB92A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08FA497720E4ADF200AB92A4 /* Main.storyboard */; };
@@ -17,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		087D28FE22EEDEEC003F79CB /* MNCountDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNCountDown.h; sourceTree = "<group>"; };
+		087D28FF22EEDEEC003F79CB /* MNCountDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNCountDown.m; sourceTree = "<group>"; };
+		087D290122EEE48B003F79CB /* NSString+MNString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MNString.h"; sourceTree = "<group>"; };
+		087D290222EEE48B003F79CB /* NSString+MNString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MNString.m"; sourceTree = "<group>"; };
 		08FA496E20E4ADF200AB92A4 /* minikit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minikit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08FA497120E4ADF200AB92A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08FA497220E4ADF200AB92A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,6 +51,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		087D28FD22EEDDDF003F79CB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				087D28FE22EEDEEC003F79CB /* MNCountDown.h */,
+				087D28FF22EEDEEC003F79CB /* MNCountDown.m */,
+				087D290122EEE48B003F79CB /* NSString+MNString.h */,
+				087D290222EEE48B003F79CB /* NSString+MNString.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		08FA496520E4ADF200AB92A4 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +83,7 @@
 		08FA497020E4ADF200AB92A4 /* minikit */ = {
 			isa = PBXGroup;
 			children = (
+				087D28FD22EEDDDF003F79CB /* Category */,
 				08FA497120E4ADF200AB92A4 /* AppDelegate.h */,
 				08FA497220E4ADF200AB92A4 /* AppDelegate.m */,
 				08FA497420E4ADF200AB92A4 /* ViewController.h */,
@@ -108,7 +126,7 @@
 				08FA496A20E4ADF200AB92A4 /* Sources */,
 				08FA496B20E4ADF200AB92A4 /* Frameworks */,
 				08FA496C20E4ADF200AB92A4 /* Resources */,
-				68A148E27AFACE0838EFA473 /* [CP] Embed Pods Frameworks */,
+				22D41532F800B70400262ACB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,7 +183,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		68A148E27AFACE0838EFA473 /* [CP] Embed Pods Frameworks */ = {
+		22D41532F800B70400262ACB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -207,7 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				087D290022EEDEEC003F79CB /* MNCountDown.m in Sources */,
 				08FA497620E4ADF200AB92A4 /* ViewController.m in Sources */,
+				087D290322EEE48B003F79CB /* NSString+MNString.m in Sources */,
 				08FA498120E4ADF300AB92A4 /* main.m in Sources */,
 				08FA497320E4ADF200AB92A4 /* AppDelegate.m in Sources */,
 			);

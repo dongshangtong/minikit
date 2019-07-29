@@ -1,26 +1,26 @@
 PODS:
   - Masonry (1.1.0)
-  - miniKit (1.0.8):
+  - miniKit (1.0.9):
     - Masonry
-    - miniKit/MNCycleImageView (= 1.0.8)
-    - miniKit/MNKeyboard (= 1.0.8)
-    - miniKit/MNMovableButton (= 1.0.8)
-    - miniKit/MNShineButton (= 1.0.8)
-    - miniKit/MNValidationView (= 1.0.8)
+    - miniKit/MNCycleImageView (= 1.0.9)
+    - miniKit/MNKeyboard (= 1.0.9)
+    - miniKit/MNMovableButton (= 1.0.9)
+    - miniKit/MNShineButton (= 1.0.9)
+    - miniKit/MNValidationView (= 1.0.9)
     - SDWebImage
-  - miniKit/MNCycleImageView (1.0.8):
-    - Masonry
-    - SDWebImage
-  - miniKit/MNKeyboard (1.0.8):
+  - miniKit/MNCycleImageView (1.0.9):
     - Masonry
     - SDWebImage
-  - miniKit/MNMovableButton (1.0.8):
+  - miniKit/MNKeyboard (1.0.9):
     - Masonry
     - SDWebImage
-  - miniKit/MNShineButton (1.0.8):
+  - miniKit/MNMovableButton (1.0.9):
     - Masonry
     - SDWebImage
-  - miniKit/MNValidationView (1.0.8):
+  - miniKit/MNShineButton (1.0.9):
+    - Masonry
+    - SDWebImage
+  - miniKit/MNValidationView (1.0.9):
     - Masonry
     - SDWebImage
   - SDWebImage (5.0.6):
@@ -38,7 +38,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  miniKit: 8aed7653b8568dcb1f5882d87f319c94da8108c7
+  miniKit: 36c9ed22e739f01fbb222cf188894734456da3ee
   SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
 
 PODFILE CHECKSUM: 89e51744487b2b0db9cbcb64e8159e8355436266
