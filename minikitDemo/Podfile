@@ -1,7 +1,8 @@
 platform :ios, '11.0'
 target ‘minikit’ do
+    use_frameworks!
     pod 'miniKit'
-    pod 'Masonry'
+
 
 end
 

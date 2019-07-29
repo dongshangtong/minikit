@@ -1,0 +1,6 @@
+framework module miniKit {
+  umbrella header "miniKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

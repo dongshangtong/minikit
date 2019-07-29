@@ -1,1 +1,0 @@
-../../../miniKit/Classes/MNShineButton/MNShineParams.h
