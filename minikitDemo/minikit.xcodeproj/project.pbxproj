@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0810AFC222EFF11000F29105 /* NSDate+MNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0810AFC122EFF11000F29105 /* NSDate+MNExtension.m */; };
+		0810AFC522EFF1D100F29105 /* MNDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0810AFC422EFF1D100F29105 /* MNDateFormatter.m */; };
 		087D290022EEDEEC003F79CB /* MNCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 087D28FF22EEDEEC003F79CB /* MNCountDown.m */; };
 		087D290322EEE48B003F79CB /* NSString+MNString.m in Sources */ = {isa = PBXBuildFile; fileRef = 087D290222EEE48B003F79CB /* NSString+MNString.m */; };
+		087D290622EEF259003F79CB /* UILabel+MNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 087D290522EEF259003F79CB /* UILabel+MNExtension.m */; };
+		087D290922EEF5C9003F79CB /* UIColor+MNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 087D290822EEF5C9003F79CB /* UIColor+MNExtension.m */; };
+		087D290C22EEF745003F79CB /* UIView+MNMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 087D290B22EEF745003F79CB /* UIView+MNMaker.m */; };
 		08FA497320E4ADF200AB92A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FA497220E4ADF200AB92A4 /* AppDelegate.m */; };
 		08FA497620E4ADF200AB92A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FA497520E4ADF200AB92A4 /* ViewController.m */; };
 		08FA497920E4ADF200AB92A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08FA497720E4ADF200AB92A4 /* Main.storyboard */; };
@@ -19,10 +24,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0810AFC022EFF11000F29105 /* NSDate+MNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+MNExtension.h"; sourceTree = "<group>"; };
+		0810AFC122EFF11000F29105 /* NSDate+MNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MNExtension.m"; sourceTree = "<group>"; };
+		0810AFC322EFF1D100F29105 /* MNDateFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNDateFormatter.h; sourceTree = "<group>"; };
+		0810AFC422EFF1D100F29105 /* MNDateFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNDateFormatter.m; sourceTree = "<group>"; };
 		087D28FE22EEDEEC003F79CB /* MNCountDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNCountDown.h; sourceTree = "<group>"; };
 		087D28FF22EEDEEC003F79CB /* MNCountDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNCountDown.m; sourceTree = "<group>"; };
 		087D290122EEE48B003F79CB /* NSString+MNString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MNString.h"; sourceTree = "<group>"; };
 		087D290222EEE48B003F79CB /* NSString+MNString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MNString.m"; sourceTree = "<group>"; };
+		087D290422EEF259003F79CB /* UILabel+MNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+MNExtension.h"; sourceTree = "<group>"; };
+		087D290522EEF259003F79CB /* UILabel+MNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MNExtension.m"; sourceTree = "<group>"; };
+		087D290722EEF5C9003F79CB /* UIColor+MNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+MNExtension.h"; sourceTree = "<group>"; };
+		087D290822EEF5C9003F79CB /* UIColor+MNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MNExtension.m"; sourceTree = "<group>"; };
+		087D290A22EEF745003F79CB /* UIView+MNMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MNMaker.h"; sourceTree = "<group>"; };
+		087D290B22EEF745003F79CB /* UIView+MNMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MNMaker.m"; sourceTree = "<group>"; };
 		08FA496E20E4ADF200AB92A4 /* minikit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minikit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08FA497120E4ADF200AB92A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08FA497220E4ADF200AB92A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +73,16 @@
 				087D28FF22EEDEEC003F79CB /* MNCountDown.m */,
 				087D290122EEE48B003F79CB /* NSString+MNString.h */,
 				087D290222EEE48B003F79CB /* NSString+MNString.m */,
+				087D290422EEF259003F79CB /* UILabel+MNExtension.h */,
+				087D290522EEF259003F79CB /* UILabel+MNExtension.m */,
+				087D290722EEF5C9003F79CB /* UIColor+MNExtension.h */,
+				087D290822EEF5C9003F79CB /* UIColor+MNExtension.m */,
+				087D290A22EEF745003F79CB /* UIView+MNMaker.h */,
+				087D290B22EEF745003F79CB /* UIView+MNMaker.m */,
+				0810AFC022EFF11000F29105 /* NSDate+MNExtension.h */,
+				0810AFC122EFF11000F29105 /* NSDate+MNExtension.m */,
+				0810AFC322EFF1D100F29105 /* MNDateFormatter.h */,
+				0810AFC422EFF1D100F29105 /* MNDateFormatter.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -126,7 +151,7 @@
 				08FA496A20E4ADF200AB92A4 /* Sources */,
 				08FA496B20E4ADF200AB92A4 /* Frameworks */,
 				08FA496C20E4ADF200AB92A4 /* Resources */,
-				22D41532F800B70400262ACB /* [CP] Embed Pods Frameworks */,
+				F575ED27ECB0C316B4801581 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -183,23 +208,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		22D41532F800B70400262ACB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-minikit/Pods-minikit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-minikit/Pods-minikit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-minikit/Pods-minikit-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		83BC234DA031387009D9B23F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -218,6 +226,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F575ED27ECB0C316B4801581 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-minikit/Pods-minikit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-minikit/Pods-minikit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-minikit/Pods-minikit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -227,9 +252,14 @@
 			files = (
 				087D290022EEDEEC003F79CB /* MNCountDown.m in Sources */,
 				08FA497620E4ADF200AB92A4 /* ViewController.m in Sources */,
+				0810AFC222EFF11000F29105 /* NSDate+MNExtension.m in Sources */,
+				087D290C22EEF745003F79CB /* UIView+MNMaker.m in Sources */,
 				087D290322EEE48B003F79CB /* NSString+MNString.m in Sources */,
+				087D290922EEF5C9003F79CB /* UIColor+MNExtension.m in Sources */,
+				087D290622EEF259003F79CB /* UILabel+MNExtension.m in Sources */,
 				08FA498120E4ADF300AB92A4 /* main.m in Sources */,
 				08FA497320E4ADF200AB92A4 /* AppDelegate.m in Sources */,
+				0810AFC522EFF1D100F29105 /* MNDateFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -44,11 +44,12 @@
     
     UIImageView *ccimage = [[UIImageView alloc]init];
     [self.contentView addSubview:ccimage];
-     __weak typeof (self) weakSelf = self;
+    __weak typeof (self) weakSelf = self;
     _ccimage = ccimage;
     [ccimage mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.mas_equalTo(weakSelf.contentView);
     }];
+    
     
     
 }

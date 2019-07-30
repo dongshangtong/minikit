@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "miniKit"
-  s.version      = "1.0.9"
+  s.version      = "1.1.0"
   s.summary      = "ios开发常用工具或分类"
   s.description  = <<-DESC
 
