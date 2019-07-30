@@ -21,9 +21,9 @@
 #import "MNCycleImageView.h"
 #import "MNDateFormatter.h"
 #import "NSDate+MNExtension.h"
-#import "UIView+MNMaker.h"
 #import "UIColor+MNExtension.h"
 #import "UILabel+MNExtension.h"
 #import "NSString+MNString.h"
+//#import "UIView+MNMaker.h"
 
 #endif /* miniKit_h */
