@@ -425,7 +425,7 @@ static char base64EncodingTable[64] = {
 }
 
 - (NSURL *)mn_toURL {
-    return [NSURL URLWithString:[self stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
+    return [NSURL URLWithString:[self stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]];
 }
 
 + (NSString *)mn_base64StringFromData:(NSData *)data length:(NSUInteger)length {
@@ -493,9 +493,6 @@ static char base64EncodingTable[64] = {
 
 
 - (NSString *)mn_URLEncode {
-
-    
-    
     NSString *result = [self stringByAddingPercentEncodingWithAllowedCharacters:[[NSCharacterSet characterSetWithCharactersInString:@"?!@#$^&%*+,:;='\"`<>()[]{}/\\| "] invertedSet]];
  
     return [result mn_trim];
