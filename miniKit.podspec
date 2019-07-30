@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "miniKit"
-  s.version      = "1.1.0"
+  s.version      = "1.1.1"
   s.summary      = "ios开发常用工具或分类"
   s.description  = <<-DESC
 
@@ -46,6 +46,10 @@ end
 
  s.subspec 'MNCycleImageView' do |va|
  va.source_files = "Classes/MNCycleImageView/*.{h,m,xib}"
+
+end
+ s.subspec 'MNCategory' do |va|
+ va.source_files = "Classes/MNCategory/*.{h,m,xib}"
 
 end
 

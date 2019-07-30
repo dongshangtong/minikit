@@ -43,7 +43,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  *  AES加密后的字符串
  */
-+ (NSString *)mn_AESEncrypt:(NSString *)text password:(NSString *)password;
+//+ (NSString *)mn_AESEncrypt:(NSString *)text password:(NSString *)password;
 
 /**
  
@@ -55,7 +55,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  *  AES解密后的字符串
  */
-+ (NSString *)mn_AESDecrypt:(NSString *)base64EncodedString password:(NSString *)password;
+//+ (NSString *)mn_AESDecrypt:(NSString *)base64EncodedString password:(NSString *)password;
 
 /**
  

@@ -493,12 +493,11 @@ static char base64EncodingTable[64] = {
 
 
 - (NSString *)mn_URLEncode {
-    NSString *result =
-    CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault,
-                                                              (CFStringRef)self,
-                                                              NULL,
-                                                              CFSTR("!*'();:@&;=+$,/?%#[] "),
-                                                              kCFStringEncodingUTF8));
+
+    
+    
+    NSString *result = [self stringByAddingPercentEncodingWithAllowedCharacters:[[NSCharacterSet characterSetWithCharactersInString:@"?!@#$^&%*+,:;='\"`<>()[]{}/\\| "] invertedSet]];
+ 
     return [result mn_trim];
 }
 
@@ -509,7 +508,7 @@ static char base64EncodingTable[64] = {
 //
 //  return base64EncodedString;
 //}
-//
+
 //+ (NSString *)mn_AESDecrypt:(NSString *)base64EncodedString password:(NSString *)password {
 //  NSData *encryptedData = [NSData mn_base64DataFromString:base64EncodedString];
 //  NSData *decryptedData = [encryptedData mn_AES256DecryptedUsingKey:[password mn_SHA256]

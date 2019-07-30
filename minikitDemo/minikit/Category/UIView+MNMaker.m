@@ -42,7 +42,7 @@
 }
 
 + (instancetype)mn_labelWithFont:(UIFont *)font textColor:(UIColor *)textColor superView:(UIView *)superView constraint:(void(^)(MASConstraintMaker *))constraint {
-    return [UILabel tt_labelWithText:nil font:font textColor:textColor backgroundColor:[UIColor clearColor] superView:superView constraint:constraint];
+    return [UILabel mn_labelWithText:@"" font:font textColor:textColor backgroundColor:[UIColor clearColor] superView:superView constraint:constraint];
 }
 
 + (instancetype)mn_labelWithText:(NSString *)text fontSize:(float)fontSize textColorValue:(uint)textColorValue backgroundColorValue:(uint)backgroundColorValue superView:(UIView *)superView constraint:(void(^)(MASConstraintMaker *))constraint {
@@ -50,10 +50,12 @@
     return [UILabel mn_labelWithText:text font:[UIFont systemFontOfSize:fontSize] textColor:[UIColor colorWithRGBValue:textColorValue] backgroundColor:[UIColor colorWithRGBValue:backgroundColorValue] superView:superView constraint:constraint];
 }
 
-+ (instancetype)tt_labelWithText:(NSString *)text font:(UIFont *)font textColor:(UIColor *)textColor backgroundColor:(UIColor *)backgroundColor superView:(UIView *)superView constraint:(void(^)(MASConstraintMaker *))constraint {
++ (instancetype)mn_labelWithText:(NSString *)text font:(UIFont *)font textColor:(UIColor *)textColor backgroundColor:(UIColor *)backgroundColor superView:(UIView *)superView constraint:(void(^)(MASConstraintMaker *))constraint {
     
     UILabel *label = [[UILabel alloc]init];
-    label.text = text;
+    if (text.length > 0) {
+       label.text = text;
+    }
     label.font = font;
     label.textColor = textColor;
     label.backgroundColor = backgroundColor;
@@ -123,7 +125,7 @@ static const void *k_mn_tableView_iden = @"k_mn_tableView_iden";
 
 @implementation UITableView (Maker)
 
-+ (instancetype)tt_tableViewWithStyle:(UITableViewStyle)style cellClassOrNibName:(id)cellClassOrNibName sectionNumber:(NSInteger (^)(void))sectionNumber rowNumber:(NSInteger (^)(NSInteger section))rowNumber cellConfig:(void (^)(NSIndexPath *indexPath ,UITableViewCell *cell))cellConfig {
++ (instancetype)mn_tableViewWithStyle:(UITableViewStyle)style cellClassOrNibName:(id)cellClassOrNibName sectionNumber:(NSInteger (^)(void))sectionNumber rowNumber:(NSInteger (^)(NSInteger section))rowNumber cellConfig:(void (^)(NSIndexPath *indexPath ,UITableViewCell *cell))cellConfig {
     
     UITableView *tableView = [[UITableView alloc]initWithFrame:CGRectZero style:style];
     
