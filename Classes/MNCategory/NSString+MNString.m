@@ -420,7 +420,7 @@ static char base64EncodingTable[64] = {
     return [self mn_pathWithFileName:fileName ofType:nil];
 }
 
-+ (NSString *)mn_pathWithFileName:(NSString *)fileName ofType:(NSString *)type {
++ (NSString *)mn_pathWithFileName:(NSString *)fileName ofType:(nullable NSString *)type {
     return [[NSBundle mainBundle] pathForResource:fileName ofType:type];
 }
 
@@ -491,12 +491,12 @@ static char base64EncodingTable[64] = {
 }
 
 
+
 - (NSString *)mn_URLEncode {
     NSString *result = [self stringByAddingPercentEncodingWithAllowedCharacters:[[NSCharacterSet characterSetWithCharactersInString:@"?!@#$^&%*+,:;='\"`<>()[]{}/\\| "] invertedSet]];
-    
+ 
     return [result mn_trim];
 }
-
 
 //+ (NSString *)mn_AESEncrypt:(NSString *)text password:(NSString *)password {
 //  NSData *encryptedData = [[text mn_toData] mn_AES256EncryptedUsingKey:[password mn_SHA256] error:nil];

@@ -239,8 +239,8 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * 如果文件路径存在，则返回该文件路径，否则返回nil
  */
-+ (NSString *)mn_pathWithFileName:(NSString *)fileName;
-+ (NSString *)mn_pathWithFileName:(NSString *)fileName ofType:(NSString *)type;
++ (NSString *)mn_pathWithFileName:( NSString *)fileName;
++ (NSString *)mn_pathWithFileName:(NSString *)fileName ofType:(nullable NSString *)type;
 
 #pragma mark - 获取Documents/tmp/Cache路径
 /*!

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "miniKit"
-  s.version      = "1.1.2"
+  s.version      = "1.1.3"
   s.summary      = "ios开发常用工具或分类"
   s.description  = <<-DESC
 
@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "11.0"
   s.ios.deployment_target = "11.0"
   s.source       = { :git => "https://github.com/dongshangtong/minikit.git", :tag => "#{s.version}" }
+  s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
  # s.source_files  = "Classes", "Classes/**/*.{h,m}"
  # s.public_header_files = "Classes/**/*.h"
 

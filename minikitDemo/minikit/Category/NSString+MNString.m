@@ -420,7 +420,7 @@ static char base64EncodingTable[64] = {
     return [self mn_pathWithFileName:fileName ofType:nil];
 }
 
-+ (NSString *)mn_pathWithFileName:(NSString *)fileName ofType:(NSString *)type {
++ (NSString *)mn_pathWithFileName:(NSString *)fileName ofType:(nullable NSString *)type {
     return [[NSBundle mainBundle] pathForResource:fileName ofType:type];
 }
 
