@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "miniKit.h"
 #import "Masonry.h"
+#import "MNAlertView.h"
+#import "MyAlertViewController.h"
 @interface ViewController ()
 @property (nonatomic,strong)  MNTextFiled *textfield;
 
@@ -21,6 +23,21 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    
+    UIButton *hitBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+     [self.view addSubview:hitBtn];
+    
+    [hitBtn addTarget:self action:@selector(hitClick) forControlEvents:UIControlEventTouchUpInside];
+    hitBtn.backgroundColor = [UIColor blueColor];
+    [hitBtn setTitle:@"弹框kKK"forState:UIControlStateNormal];
+    [hitBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(self.view.mas_top).mas_offset(40);
+        make.left.mas_equalTo(self.view.mas_left).mas_offset(80);
+        make.height.mas_equalTo(40);
+        make.width.mas_equalTo(80);
+    }];
+    
     
     
     MNShineParams * params = [[MNShineParams alloc]init];
@@ -80,6 +97,16 @@
 -(void)action{
     
     NSLog(@"KKKKKKKKKKK");
+}
+
+
+-(void)hitClick{
+    
+    MyAlertViewController *VC = [[MyAlertViewController alloc]init];
+    
+    [self presentViewController:VC animated:YES completion:nil];
+    
+  
 }
 
 
