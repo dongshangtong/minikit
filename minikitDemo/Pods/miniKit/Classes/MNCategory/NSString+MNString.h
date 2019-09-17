@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSString (MNString)
@@ -258,6 +258,137 @@ NS_ASSUME_NONNULL_BEGIN
  *  str     需要判断的被包含的字符串
  */
 -(BOOL)mn_isContainString:(NSString *)str;
+
+
+
+
+#pragma mark - 文本计算方法
+/**
+ *  计算文字大小
+ *
+ *  @param font 字体
+ *  @param size 计算范围的大小
+ *  @param mode 段落样式
+ *
+ *  @return 计算出来的大小
+ */
+- (CGSize)mn_sizeWithSystemFont:(UIFont *)font constrainedToSize:(CGSize)size lineBreakMode:(NSLineBreakMode)mode;
+
+/**
+ 计算字符串高度
+ 
+ @param font 字体
+ @param size 限制大小
+ @param mode 计算的换行模型
+ @param numberOfLine 限制计算高度的行数
+ @return 返回计算大小
+ */
+- (CGSize)mn_sizeWithSystemFont:(UIFont *)font constrainedToSize:(CGSize)size lineBreakMode:(NSLineBreakMode)mode numberOfLine:(NSInteger)numberOfLine;
+
+/**
+ *  计算文字大小
+ *
+ *  @param font 字体
+ *  @param size 计算范围的大小
+ *
+ *  @return 计算出来的大小
+ */
+- (CGSize)mn_sizeWithSystemFont:(UIFont *)font constrainedToSize:(CGSize)size;
+
+/**
+ *  计算文字大小
+ *
+ *  @param text 文字
+ *  @param font 字体
+ *  @param size 计算范围的大小
+ *
+ *  @return 计算出来的大小
+ */
++ (CGSize)mn_sizeWithText:(NSString *)text systemFont:(UIFont *)font constrainedToSize:(CGSize)size;
+
+/**
+ 计算粗体文字大小
+ 
+ @param font 字体
+ @param size 计算范围的大小
+ @param mode 计算的换行模型
+ @return 计算出来的大小
+ */
+- (CGSize)mn_sizeWithBoldFont:(UIFont *)font constrainedToSize:(CGSize)size lineBreakMode:(NSLineBreakMode)mode;
+
+/**
+ 计算粗体文字大小
+ 
+ @param font 字体
+ @param size 计算范围的大小
+ @return 计算出来的大小
+ */
+- (CGSize)mn_sizeWithBoldFont:(UIFont *)font constrainedToSize:(CGSize)size;
+
+/**
+ 计算粗体文字大小
+ 
+ @param font 字体
+ @param size 计算范围的大小
+ @param mode 计算的换行模型
+ @param numberOfLine 限制计算高度的行数
+ @return 计算出来的大小
+ */
+- (CGSize)mn_sizeWithBoldFont:(UIFont *)font constrainedToSize:(CGSize)size lineBreakMode:(NSLineBreakMode)mode numberOfLine:(NSInteger)numberOfLine;
+
+
+#pragma mark - 富文本相关
+/**
+ 转变成富文本
+ 
+ @param lineSpacing 行间距
+ @param kern 文字间的间距
+ @param lineBreakMode 换行方式
+ @param alignment 文字对齐格式
+ @return 转变后的富文本
+ */
+- (NSAttributedString *)mn_conversionToAttributedStringWithLineSpeace:(CGFloat)lineSpacing kern:(CGFloat)kern lineBreakMode:(NSLineBreakMode)lineBreakMode alignment:(NSTextAlignment)alignment;
+
+/**
+ 计算富文本字体大小
+ 
+ @param lineSpeace 行间距
+ @param kern 文字间的间距
+ @param font 字体
+ @param size 计算范围
+ @param lineBreakMode 换行方式
+ @param alignment 文字对齐格式
+ @return 计算后的字体大小
+ */
+- (CGSize)mn_sizeWithAttributedStringLineSpeace:(CGFloat)lineSpeace kern:(CGFloat)kern font:(UIFont *)font size:(CGSize)size lineBreakMode:(NSLineBreakMode)lineBreakMode alignment:(NSTextAlignment)alignment;
+
+/**
+ 计算富文本字体大小
+ 
+ @param lineSpeace 行间距
+ @param kern 文字间的间距
+ @param font 字体
+ @param size 计算范围
+ @param lineBreakMode 换行方式
+ @param alignment 文字对齐格式
+ @param numberOfLine 限制计算行数
+ @return 计算后的字体大小
+ */
+- (CGSize)mn_sizeWithAttributedStringLineSpeace:(CGFloat)lineSpeace kern:(CGFloat)kern font:(UIFont *)font size:(CGSize)size lineBreakMode:(NSLineBreakMode)lineBreakMode alignment:(NSTextAlignment)alignment numberOfLine:(NSInteger)numberOfLine;
+
+/**
+ 是否是一行高度
+ 
+ @param lineSpeace 行间距
+ @param kern 文字间的间距
+ @param font 字体
+ @param size 计算范围
+ @param lineBreakMode 换行方式
+ @param alignment 文字对齐格式
+ @return 返回YES代表1行, NO代表多行
+ */
+- (BOOL)mn_numberOfLineWithLineSpeace:(CGFloat)lineSpeace kern:(CGFloat)kern font:(UIFont *)font size:(CGSize)size lineBreakMode:(NSLineBreakMode)lineBreakMode alignment:(NSTextAlignment)alignment;
+
 
 @end
 

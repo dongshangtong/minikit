@@ -9,7 +9,6 @@
 #import "ViewController.h"
 #import "miniKit.h"
 #import "Masonry.h"
-#import "MNAlertView.h"
 #import "MyAlertViewController.h"
 @interface ViewController ()
 @property (nonatomic,strong)  MNTextFiled *textfield;

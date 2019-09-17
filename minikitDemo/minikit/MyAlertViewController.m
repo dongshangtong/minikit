@@ -7,7 +7,7 @@
 //
 
 #import "MyAlertViewController.h"
-#import "MNAlertView.h"
+#import "miniKit.h"
 #import "Masonry.h"
 @interface MyAlertViewController ()
 
@@ -203,7 +203,7 @@
 }
 
 - (void)styleFive {
-    MNAlertView *alertView = [MNAlertView alertViewWithTitle:@"样式5" andMessage:@"其他的自己写着玩吧~~~"];
+    MNAlertView *alertView = [MNAlertView alertViewWithTitle:@"" andMessage:@"蓝牙连接失败\n请检查设备与蓝牙"];
     alertView.transitionStyle = MNAlertViewTransitionStyleDropDown;
     alertView.backgroundStyle = MNAlertViewBackgroundStyleGradient;
     alertView.isSupportRotating = YES;

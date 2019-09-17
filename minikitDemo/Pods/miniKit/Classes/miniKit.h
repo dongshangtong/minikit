@@ -17,6 +17,8 @@
 #import "MNMoveButton.h"
 #import "MNTextFiled.h"
 
+#import "MNMacro.h"
+
 #import "MNCountDown.h"
 #import "MNCycleImageView.h"
 #import "MNDateFormatter.h"
@@ -25,5 +27,8 @@
 #import "UILabel+MNExtension.h"
 #import "NSString+MNString.h"
 #import "UIView+MNMaker.h"
+#import "MNAlertView.h"
+#import "UIView+MNExtension.h"
+#import "UIImage+MNExtension.h"
 
 #endif /* miniKit_h */

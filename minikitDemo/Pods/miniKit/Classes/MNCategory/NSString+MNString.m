@@ -636,4 +636,130 @@ static char base64EncodingTable[64] = {
     return range.location != NSNotFound;
 }
 
+#pragma mark - 文本计算方法
+- (CGSize)mn_sizeWithSystemFont:(UIFont *)font constrainedToSize:(CGSize)size lineBreakMode:(NSLineBreakMode)mode {
+    NSMutableParagraphStyle *paragraphStyle = [NSMutableParagraphStyle new];
+    paragraphStyle.lineBreakMode = mode;
+    paragraphStyle.alignment = NSTextAlignmentLeft;
+    
+    NSDictionary *attributes = @{NSFontAttributeName : font,
+                                 NSParagraphStyleAttributeName : paragraphStyle};
+    CGRect rect = [self boundingRectWithSize:size options:NSStringDrawingUsesLineFragmentOrigin attributes:attributes context:nil];
+    return CGSizeMake(ceil(rect.size.width), ceil(rect.size.height));
+}
+
+- (CGSize)mn_sizeWithSystemFont:(UIFont *)font constrainedToSize:(CGSize)size lineBreakMode:(NSLineBreakMode)mode numberOfLine:(NSInteger)numberOfLine {
+    CGSize maxSize = [self mn_sizeWithSystemFont:font constrainedToSize:size lineBreakMode:mode];
+    CGFloat oneLineHeight = [self mn_sizeWithSystemFont:font constrainedToSize:CGSizeMake(size.width, font.lineHeight) lineBreakMode:NSLineBreakByTruncatingTail].height;
+    CGFloat height = 0;
+    CGFloat limitHeight = oneLineHeight * numberOfLine;
+    
+    if (maxSize.height > limitHeight) {
+        height = limitHeight;
+    } else {
+        height = maxSize.height;
+    }
+    
+    return CGSizeMake(maxSize.width, height);
+}
+
+- (CGSize)mn_sizeWithSystemFont:(UIFont *)font constrainedToSize:(CGSize)size {
+    return [self mn_sizeWithSystemFont:font constrainedToSize:size lineBreakMode:NSLineBreakByWordWrapping];
+}
+
++ (CGSize)mn_sizeWithText:(NSString *)text systemFont:(UIFont *)font constrainedToSize:(CGSize)size {
+    return [text mn_sizeWithSystemFont:font constrainedToSize:size];
+}
+
+- (CGSize)mn_sizeWithBoldFont:(UIFont *)font constrainedToSize:(CGSize)size lineBreakMode:(NSLineBreakMode)mode {
+    NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
+    paragraphStyle.lineBreakMode = mode;
+    paragraphStyle.alignment = NSTextAlignmentLeft;
+    NSDictionary *attributes = @{NSFontAttributeName: font,
+                                 NSParagraphStyleAttributeName: paragraphStyle};
+    
+    CGRect rect = [self boundingRectWithSize:size options:NSStringDrawingUsesLineFragmentOrigin attributes:attributes context:nil];
+    return CGSizeMake(ceil(rect.size.width), ceil(rect.size.height));
+}
+
+- (CGSize)mn_sizeWithBoldFont:(UIFont *)font constrainedToSize:(CGSize)size {
+    return [self mn_sizeWithBoldFont:font constrainedToSize:size lineBreakMode:NSLineBreakByWordWrapping];
+}
+
+- (CGSize)mn_sizeWithBoldFont:(UIFont *)font constrainedToSize:(CGSize)size lineBreakMode:(NSLineBreakMode)mode numberOfLine:(NSInteger)numberOfLine {
+    CGSize maxSize = [self mn_sizeWithBoldFont:font constrainedToSize:size lineBreakMode:mode];
+    CGFloat oneLineHeight = [self mn_sizeWithBoldFont:font constrainedToSize:CGSizeMake(size.width, font.lineHeight) lineBreakMode:NSLineBreakByTruncatingTail].height;
+    CGFloat height = 0;
+    CGFloat limitHeight = oneLineHeight * numberOfLine;
+    
+    if (maxSize.height > limitHeight) {
+        height = limitHeight;
+    } else {
+        height = maxSize.height;
+    }
+    
+    return CGSizeMake(maxSize.width, height);
+}
+
+
+#pragma mark - 富文本相关
+- (NSAttributedString *)mn_conversionToAttributedStringWithLineSpeace:(CGFloat)lineSpacing kern:(CGFloat)kern lineBreakMode:(NSLineBreakMode)lineBreakMode alignment:(NSTextAlignment)alignment {
+    NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
+    paragraphStyle.lineSpacing = lineSpacing;
+    paragraphStyle.lineBreakMode = lineBreakMode;
+    paragraphStyle.alignment = alignment;
+    
+    NSDictionary *attributes = @{NSParagraphStyleAttributeName:paragraphStyle,
+                                 NSKernAttributeName:@(kern)};
+    
+    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:self attributes:attributes];
+    
+    return attributedString;
+}
+
+- (CGSize)mn_sizeWithAttributedStringLineSpeace:(CGFloat)lineSpeace kern:(CGFloat)kern font:(UIFont *)font size:(CGSize)size lineBreakMode:(NSLineBreakMode)lineBreakMode alignment:(NSTextAlignment)alignment {
+    if (font == nil) {
+        NSLog(@"font不能为空");
+        return CGSizeMake(0, 0);
+    }
+    
+    NSMutableParagraphStyle *paraStyle = [[NSMutableParagraphStyle alloc] init];
+    paraStyle.lineSpacing = lineSpeace;
+    paraStyle.lineBreakMode = lineBreakMode;
+    paraStyle.alignment = alignment;
+    
+    NSDictionary *dic = @{NSFontAttributeName:font,
+                          NSParagraphStyleAttributeName:paraStyle,
+                          NSKernAttributeName:@(kern)};
+    CGRect rect = [self boundingRectWithSize:size options:NSStringDrawingUsesLineFragmentOrigin attributes:dic context:nil];
+    return CGSizeMake(ceil(rect.size.width), ceil(rect.size.height));
+}
+
+- (CGSize)mn_sizeWithAttributedStringLineSpeace:(CGFloat)lineSpeace kern:(CGFloat)kern font:(UIFont *)font size:(CGSize)size lineBreakMode:(NSLineBreakMode)lineBreakMode alignment:(NSTextAlignment)alignment numberOfLine:(NSInteger)numberOfLine {
+    CGSize maxSize = [self mn_sizeWithAttributedStringLineSpeace:lineSpeace kern:kern font:font size:size lineBreakMode:lineBreakMode alignment:alignment];
+    CGFloat oneLineHeight = [self mn_sizeWithAttributedStringLineSpeace:lineSpeace kern:kern font:font size:CGSizeMake(size.width, font.lineHeight) lineBreakMode:NSLineBreakByTruncatingTail alignment:alignment].height;
+    CGFloat height = 0;
+    CGFloat limitHeight = oneLineHeight * numberOfLine;
+    
+    if (maxSize.height > limitHeight) {
+        height = limitHeight;
+    } else {
+        height = maxSize.height;
+    }
+    
+    return CGSizeMake(maxSize.width, height);
+}
+
+- (BOOL)mn_numberOfLineWithLineSpeace:(CGFloat)lineSpeace kern:(CGFloat)kern font:(UIFont *)font size:(CGSize)size lineBreakMode:(NSLineBreakMode)lineBreakMode alignment:(NSTextAlignment)alignment {
+    CGFloat oneHeight = [self mn_sizeWithAttributedStringLineSpeace:lineSpeace kern:kern font:font size:CGSizeMake(size.width, font.lineHeight) lineBreakMode:NSLineBreakByTruncatingTail alignment:alignment].height;
+    CGFloat maxHeight = [self mn_sizeWithAttributedStringLineSpeace:lineSpeace kern:kern font:font size:size lineBreakMode:lineBreakMode alignment:alignment].height;
+    
+    if (maxHeight > oneHeight) {
+        return NO;
+    }
+    
+    return YES;
+}
+
+
 @end
