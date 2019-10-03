@@ -32,11 +32,11 @@
 		087FFE952345F02600510CD7 /* UIImage+MNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 087FFE6D2345F02500510CD7 /* UIImage+MNExtension.m */; };
 		087FFE962345F02600510CD7 /* UILabel+MNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 087FFE6E2345F02500510CD7 /* UILabel+MNExtension.m */; };
 		087FFE972345F02600510CD7 /* MNAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 087FFE6F2345F02600510CD7 /* MNAlertView.m */; };
-		087FFE982345F02600510CD7 /* MNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 087FFE742345F02600510CD7 /* MNUtils.m */; };
 		087FFE992345F02600510CD7 /* MNCycleImageViewPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 087FFE762345F02600510CD7 /* MNCycleImageViewPageControl.m */; };
 		087FFE9A2345F02600510CD7 /* MNCycleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 087FFE792345F02600510CD7 /* MNCycleImageView.m */; };
 		087FFE9B2345F02600510CD7 /* MNCycleImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 087FFE7B2345F02600510CD7 /* MNCycleImageViewCell.m */; };
 		087FFE9C2345F02600510CD7 /* MNValidationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 087FFE7D2345F02600510CD7 /* MNValidationView.m */; };
+		087FFEA22345FD8900510CD7 /* MNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 087FFEA12345FD8900510CD7 /* MNUtils.m */; };
 		0880E33522F18F9D00D8D8C6 /* MyAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0880E33422F18F9D00D8D8C6 /* MyAlertViewController.m */; };
 		08FA497320E4ADF200AB92A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FA497220E4ADF200AB92A4 /* AppDelegate.m */; };
 		08FA497620E4ADF200AB92A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FA497520E4ADF200AB92A4 /* ViewController.m */; };
@@ -70,7 +70,6 @@
 		087FFE512345F02500510CD7 /* MNShineButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNShineButton.m; sourceTree = "<group>"; };
 		087FFE522345F02500510CD7 /* MNShineParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNShineParams.h; sourceTree = "<group>"; };
 		087FFE542345F02500510CD7 /* UIButton+YCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+YCExtension.m"; sourceTree = "<group>"; };
-		087FFE552345F02500510CD7 /* MNMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMacro.h; sourceTree = "<group>"; };
 		087FFE562345F02500510CD7 /* UIView+shadowPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+shadowPath.m"; sourceTree = "<group>"; };
 		087FFE572345F02500510CD7 /* MNCountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNCountDown.h; sourceTree = "<group>"; };
 		087FFE582345F02500510CD7 /* UIImage+MNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MNExtension.h"; sourceTree = "<group>"; };
@@ -82,7 +81,6 @@
 		087FFE5E2345F02500510CD7 /* UIView+MNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MNExtension.m"; sourceTree = "<group>"; };
 		087FFE5F2345F02500510CD7 /* MNAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNAlertView.h; sourceTree = "<group>"; };
 		087FFE602345F02500510CD7 /* UILabel+MNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+MNExtension.h"; sourceTree = "<group>"; };
-		087FFE612345F02500510CD7 /* MNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNUtils.h; sourceTree = "<group>"; };
 		087FFE622345F02500510CD7 /* NSString+MNString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MNString.m"; sourceTree = "<group>"; };
 		087FFE632345F02500510CD7 /* UIView+MNMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MNMaker.m"; sourceTree = "<group>"; };
 		087FFE642345F02500510CD7 /* MBProgressHUD+YCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+YCExtension.m"; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 		087FFE712345F02600510CD7 /* UIView+MNMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MNMaker.h"; sourceTree = "<group>"; };
 		087FFE722345F02600510CD7 /* MBProgressHUD+YCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+YCExtension.h"; sourceTree = "<group>"; };
 		087FFE732345F02600510CD7 /* NSString+MNString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MNString.h"; sourceTree = "<group>"; };
-		087FFE742345F02600510CD7 /* MNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNUtils.m; sourceTree = "<group>"; };
 		087FFE762345F02600510CD7 /* MNCycleImageViewPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNCycleImageViewPageControl.m; sourceTree = "<group>"; };
 		087FFE772345F02600510CD7 /* MNCycleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNCycleImageView.h; sourceTree = "<group>"; };
 		087FFE782345F02600510CD7 /* MNCycleImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNCycleImageViewCell.h; sourceTree = "<group>"; };
@@ -111,6 +108,9 @@
 		087FFE7D2345F02600510CD7 /* MNValidationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNValidationView.m; sourceTree = "<group>"; };
 		087FFE7E2345F02600510CD7 /* MNValidationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNValidationView.h; sourceTree = "<group>"; };
 		087FFE9D2345F0A300510CD7 /* MN_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MN_PrefixHeader.pch; sourceTree = "<group>"; };
+		087FFE9F2345FD8900510CD7 /* MNMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMacro.h; sourceTree = "<group>"; };
+		087FFEA02345FD8900510CD7 /* MNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNUtils.h; sourceTree = "<group>"; };
+		087FFEA12345FD8900510CD7 /* MNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNUtils.m; sourceTree = "<group>"; };
 		0880E33322F18F9D00D8D8C6 /* MyAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAlertViewController.h; sourceTree = "<group>"; };
 		0880E33422F18F9D00D8D8C6 /* MyAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAlertViewController.m; sourceTree = "<group>"; };
 		08FA496E20E4ADF200AB92A4 /* minikit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minikit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +144,7 @@
 		087FFE3A2345F02500510CD7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				087FFE9E2345FD8900510CD7 /* MNTools */,
 				087FFE3B2345F02500510CD7 /* miniKit.h */,
 				087FFE3C2345F02500510CD7 /* MNKeyboard */,
 				087FFE452345F02500510CD7 /* MNMovableButton */,
@@ -201,7 +202,6 @@
 			isa = PBXGroup;
 			children = (
 				087FFE542345F02500510CD7 /* UIButton+YCExtension.m */,
-				087FFE552345F02500510CD7 /* MNMacro.h */,
 				087FFE562345F02500510CD7 /* UIView+shadowPath.m */,
 				087FFE572345F02500510CD7 /* MNCountDown.h */,
 				087FFE582345F02500510CD7 /* UIImage+MNExtension.h */,
@@ -213,7 +213,6 @@
 				087FFE5E2345F02500510CD7 /* UIView+MNExtension.m */,
 				087FFE5F2345F02500510CD7 /* MNAlertView.h */,
 				087FFE602345F02500510CD7 /* UILabel+MNExtension.h */,
-				087FFE612345F02500510CD7 /* MNUtils.h */,
 				087FFE622345F02500510CD7 /* NSString+MNString.m */,
 				087FFE632345F02500510CD7 /* UIView+MNMaker.m */,
 				087FFE642345F02500510CD7 /* MBProgressHUD+YCExtension.m */,
@@ -232,7 +231,6 @@
 				087FFE712345F02600510CD7 /* UIView+MNMaker.h */,
 				087FFE722345F02600510CD7 /* MBProgressHUD+YCExtension.h */,
 				087FFE732345F02600510CD7 /* NSString+MNString.h */,
-				087FFE742345F02600510CD7 /* MNUtils.m */,
 			);
 			path = MNCategory;
 			sourceTree = "<group>";
@@ -257,6 +255,16 @@
 				087FFE7E2345F02600510CD7 /* MNValidationView.h */,
 			);
 			path = MNValidationView;
+			sourceTree = "<group>";
+		};
+		087FFE9E2345FD8900510CD7 /* MNTools */ = {
+			isa = PBXGroup;
+			children = (
+				087FFE9F2345FD8900510CD7 /* MNMacro.h */,
+				087FFEA02345FD8900510CD7 /* MNUtils.h */,
+				087FFEA12345FD8900510CD7 /* MNUtils.m */,
+			);
+			path = MNTools;
 			sourceTree = "<group>";
 		};
 		08FA496520E4ADF200AB92A4 = {
@@ -429,7 +437,6 @@
 				087FFE862345F02600510CD7 /* MNShineParams.m in Sources */,
 				087FFE942345F02600510CD7 /* UIViewController+NavigationBarHidden.m in Sources */,
 				087FFE812345F02600510CD7 /* MNIDCardBoard.m in Sources */,
-				087FFE982345F02600510CD7 /* MNUtils.m in Sources */,
 				087FFE912345F02600510CD7 /* MNDateFormatter.m in Sources */,
 				087FFE882345F02600510CD7 /* MNShineButton.m in Sources */,
 				087FFE932345F02600510CD7 /* NSDate+MNExtension.m in Sources */,
@@ -454,6 +461,7 @@
 				087FFE7F2345F02600510CD7 /* MNTextFiled.m in Sources */,
 				087FFE8F2345F02600510CD7 /* MNCountDown.m in Sources */,
 				08FA498120E4ADF300AB92A4 /* main.m in Sources */,
+				087FFEA22345FD8900510CD7 /* MNUtils.m in Sources */,
 				087FFE902345F02600510CD7 /* NSData+MNExtension.m in Sources */,
 				08FA497320E4ADF200AB92A4 /* AppDelegate.m in Sources */,
 				087FFE8D2345F02600510CD7 /* UIView+MNMaker.m in Sources */,
