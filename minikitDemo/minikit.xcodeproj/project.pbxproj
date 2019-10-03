@@ -108,9 +108,9 @@
 		087FFE7D2345F02600510CD7 /* MNValidationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNValidationView.m; sourceTree = "<group>"; };
 		087FFE7E2345F02600510CD7 /* MNValidationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNValidationView.h; sourceTree = "<group>"; };
 		087FFE9D2345F0A300510CD7 /* MN_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MN_PrefixHeader.pch; sourceTree = "<group>"; };
-		087FFE9F2345FD8900510CD7 /* MNMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMacro.h; sourceTree = "<group>"; };
 		087FFEA02345FD8900510CD7 /* MNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNUtils.h; sourceTree = "<group>"; };
 		087FFEA12345FD8900510CD7 /* MNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNUtils.m; sourceTree = "<group>"; };
+		087FFEA32346027A00510CD7 /* MNMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMacro.h; sourceTree = "<group>"; };
 		0880E33322F18F9D00D8D8C6 /* MyAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAlertViewController.h; sourceTree = "<group>"; };
 		0880E33422F18F9D00D8D8C6 /* MyAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAlertViewController.m; sourceTree = "<group>"; };
 		08FA496E20E4ADF200AB92A4 /* minikit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minikit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,6 +201,7 @@
 		087FFE532345F02500510CD7 /* MNCategory */ = {
 			isa = PBXGroup;
 			children = (
+				087FFEA32346027A00510CD7 /* MNMacro.h */,
 				087FFE542345F02500510CD7 /* UIButton+YCExtension.m */,
 				087FFE562345F02500510CD7 /* UIView+shadowPath.m */,
 				087FFE572345F02500510CD7 /* MNCountDown.h */,
@@ -260,7 +261,6 @@
 		087FFE9E2345FD8900510CD7 /* MNTools */ = {
 			isa = PBXGroup;
 			children = (
-				087FFE9F2345FD8900510CD7 /* MNMacro.h */,
 				087FFEA02345FD8900510CD7 /* MNUtils.h */,
 				087FFEA12345FD8900510CD7 /* MNUtils.m */,
 			);

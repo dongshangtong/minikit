@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "miniKit"
-  s.version      = "1.1.9"
+  s.version      = "1.2.0"
   s.summary      = "ios开发常用工具或分类"
   s.description  = <<-DESC
 
@@ -63,4 +63,5 @@ end
   s.requires_arc = true
   s.dependency "Masonry"
   s.dependency "SDWebImage"
+  s.dependency "MBProgressHUD"
 end
