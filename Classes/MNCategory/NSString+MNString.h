@@ -13,6 +13,19 @@ NS_ASSUME_NONNULL_BEGIN
 @interface NSString (MNString)
 
 
+
+ //将16进制的字符串转换成NSData
++ (NSMutableData *)convertHexStrToData:(NSString *)str ;
+
+//十六进制转换为普通字符串的。
++ (NSString *)ConvertHexStringToString:(NSString *)hexString;
+//普通字符串转换为十六进制
++ (NSString *)ConvertStringToHexString:(NSString *)string;
+
+//十六进制转换为普通字符串的。
++ (NSData *)ConvertHexStringToData:(NSString *)hexString;
+
+
 #pragma mark - 加密相关
 /**
  

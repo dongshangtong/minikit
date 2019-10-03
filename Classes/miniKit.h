@@ -18,6 +18,8 @@
 #import "MNTextFiled.h"
 
 #import "MNMacro.h"
+#import "MNUtils.h"
+
 
 #import "MNCountDown.h"
 #import "MNCycleImageView.h"
@@ -30,5 +32,10 @@
 #import "MNAlertView.h"
 #import "UIView+MNExtension.h"
 #import "UIImage+MNExtension.h"
+#import "UIView+shadowPath.h"
+#import "MBProgressHUD+YCExtension.h"
+#import "UIButton+YCExtension.h"
+#import "NSData+MNExtension.h"
+#import "UIViewController+NavigationBarHidden.h"
 
 #endif /* miniKit_h */

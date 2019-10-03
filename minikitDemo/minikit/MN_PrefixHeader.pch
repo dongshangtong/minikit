@@ -1,0 +1,16 @@
+//
+//  MN_PrefixHeader.pch
+//  minikit
+//
+//  Created by dongshangtong on 2019/10/3.
+//  Copyright © 2019 dongshangtong. All rights reserved.
+//
+
+#ifndef MN_PrefixHeader_pch
+#define MN_PrefixHeader_pch
+
+#import "Masonry.h"
+#import "MBProgressHUD.h"
+#import "miniKit.h"
+
+#endif /* MN_PrefixHeader_pch */

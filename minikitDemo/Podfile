@@ -1,7 +1,10 @@
 platform :ios, '11.0'
 target ‘minikit’ do
     use_frameworks!
-    pod 'miniKit'
+#    pod 'miniKit'
+    pod 'MBProgressHUD'
+    pod 'SDWebImage'
+    pod 'Masonry'
 
 
 end
