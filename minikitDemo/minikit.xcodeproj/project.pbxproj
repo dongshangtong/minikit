@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		083E05232353A32D006A1A0E /* MNAlertViewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 083E05222353A32D006A1A0E /* MNAlertViewsController.m */; };
+		083E05262353A7FB006A1A0E /* MNAlertXIBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 083E05252353A7FB006A1A0E /* MNAlertXIBViewController.m */; };
+		08592D0B235B7DD0009C5059 /* MNCenterCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08592CFE235B7DD0009C5059 /* MNCenterCircleView.m */; };
+		08592D0C235B7DD0009C5059 /* MNMenuWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 08592CFF235B7DD0009C5059 /* MNMenuWindow.m */; };
+		08592D0D235B7DD0009C5059 /* MNColorCicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 08592D01235B7DD0009C5059 /* MNColorCicle.m */; };
+		08592D0E235B7DD0009C5059 /* MNDripView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08592D02235B7DD0009C5059 /* MNDripView.m */; };
+		08592D0F235B7DD0009C5059 /* MNSemiCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08592D03235B7DD0009C5059 /* MNSemiCircleView.m */; };
+		08592D10235B7DD0009C5059 /* MNColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08592D04235B7DD0009C5059 /* MNColorPickerView.m */; };
+		08592D11235B7DD0009C5059 /* MNSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 08592D05235B7DD0009C5059 /* MNSlider.m */; };
+		08592D12235B7DD0009C5059 /* MNFavoriteColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08592D08235B7DD0009C5059 /* MNFavoriteColorView.m */; };
+		08592D13235B7DD0009C5059 /* MNMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08592D0A235B7DD0009C5059 /* MNMenuView.m */; };
+		08592D16235B7EBD009C5059 /* MNColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08592D15235B7EBD009C5059 /* MNColorPickerViewController.m */; };
 		087FFE7F2345F02600510CD7 /* MNTextFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = 087FFE3D2345F02500510CD7 /* MNTextFiled.m */; };
 		087FFE802345F02600510CD7 /* MNPayKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 087FFE422345F02500510CD7 /* MNPayKeyBoard.m */; };
 		087FFE812345F02600510CD7 /* MNIDCardBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 087FFE432345F02500510CD7 /* MNIDCardBoard.m */; };
@@ -38,6 +50,8 @@
 		087FFE9C2345F02600510CD7 /* MNValidationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 087FFE7D2345F02600510CD7 /* MNValidationView.m */; };
 		087FFEA22345FD8900510CD7 /* MNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 087FFEA12345FD8900510CD7 /* MNUtils.m */; };
 		0880E33522F18F9D00D8D8C6 /* MyAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0880E33422F18F9D00D8D8C6 /* MyAlertViewController.m */; };
+		08B2617223539A4D00898AB6 /* MNAlertAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B2617123539A4D00898AB6 /* MNAlertAnimationController.m */; };
+		08B2617823539E5A00898AB6 /* TestAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B2617723539E5A00898AB6 /* TestAlertViewController.m */; };
 		08FA497320E4ADF200AB92A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FA497220E4ADF200AB92A4 /* AppDelegate.m */; };
 		08FA497620E4ADF200AB92A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FA497520E4ADF200AB92A4 /* ViewController.m */; };
 		08FA497920E4ADF200AB92A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08FA497720E4ADF200AB92A4 /* Main.storyboard */; };
@@ -48,6 +62,30 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		083E05212353A32D006A1A0E /* MNAlertViewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNAlertViewsController.h; sourceTree = "<group>"; };
+		083E05222353A32D006A1A0E /* MNAlertViewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNAlertViewsController.m; sourceTree = "<group>"; };
+		083E05242353A7FB006A1A0E /* MNAlertXIBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNAlertXIBViewController.h; sourceTree = "<group>"; };
+		083E05252353A7FB006A1A0E /* MNAlertXIBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNAlertXIBViewController.m; sourceTree = "<group>"; };
+		08592CF9235B7DD0009C5059 /* MNColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNColorPickerView.h; sourceTree = "<group>"; };
+		08592CFA235B7DD0009C5059 /* MNDripView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNDripView.h; sourceTree = "<group>"; };
+		08592CFB235B7DD0009C5059 /* MNSemiCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNSemiCircleView.h; sourceTree = "<group>"; };
+		08592CFC235B7DD0009C5059 /* MNSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNSlider.h; sourceTree = "<group>"; };
+		08592CFD235B7DD0009C5059 /* MNFavoriteColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNFavoriteColorView.h; sourceTree = "<group>"; };
+		08592CFE235B7DD0009C5059 /* MNCenterCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNCenterCircleView.m; sourceTree = "<group>"; };
+		08592CFF235B7DD0009C5059 /* MNMenuWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNMenuWindow.m; sourceTree = "<group>"; };
+		08592D00235B7DD0009C5059 /* MNMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMenuView.h; sourceTree = "<group>"; };
+		08592D01235B7DD0009C5059 /* MNColorCicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNColorCicle.m; sourceTree = "<group>"; };
+		08592D02235B7DD0009C5059 /* MNDripView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNDripView.m; sourceTree = "<group>"; };
+		08592D03235B7DD0009C5059 /* MNSemiCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNSemiCircleView.m; sourceTree = "<group>"; };
+		08592D04235B7DD0009C5059 /* MNColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNColorPickerView.m; sourceTree = "<group>"; };
+		08592D05235B7DD0009C5059 /* MNSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNSlider.m; sourceTree = "<group>"; };
+		08592D06235B7DD0009C5059 /* MNMenuWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMenuWindow.h; sourceTree = "<group>"; };
+		08592D07235B7DD0009C5059 /* MNCenterCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNCenterCircleView.h; sourceTree = "<group>"; };
+		08592D08235B7DD0009C5059 /* MNFavoriteColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNFavoriteColorView.m; sourceTree = "<group>"; };
+		08592D09235B7DD0009C5059 /* MNColorCicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNColorCicle.h; sourceTree = "<group>"; };
+		08592D0A235B7DD0009C5059 /* MNMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNMenuView.m; sourceTree = "<group>"; };
+		08592D14235B7EBD009C5059 /* MNColorPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNColorPickerViewController.h; sourceTree = "<group>"; };
+		08592D15235B7EBD009C5059 /* MNColorPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNColorPickerViewController.m; sourceTree = "<group>"; };
 		087FFE3B2345F02500510CD7 /* miniKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = miniKit.h; sourceTree = "<group>"; };
 		087FFE3D2345F02500510CD7 /* MNTextFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNTextFiled.m; sourceTree = "<group>"; };
 		087FFE3E2345F02500510CD7 /* MNPayKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNPayKeyBoard.h; sourceTree = "<group>"; };
@@ -110,9 +148,13 @@
 		087FFE9D2345F0A300510CD7 /* MN_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MN_PrefixHeader.pch; sourceTree = "<group>"; };
 		087FFEA02345FD8900510CD7 /* MNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNUtils.h; sourceTree = "<group>"; };
 		087FFEA12345FD8900510CD7 /* MNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNUtils.m; sourceTree = "<group>"; };
-		087FFEA32346027A00510CD7 /* MNMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMacro.h; sourceTree = "<group>"; };
 		0880E33322F18F9D00D8D8C6 /* MyAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAlertViewController.h; sourceTree = "<group>"; };
 		0880E33422F18F9D00D8D8C6 /* MyAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAlertViewController.m; sourceTree = "<group>"; };
+		0894FDD3234C26210091DFFF /* MNMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMacro.h; sourceTree = "<group>"; };
+		08B2617023539A4D00898AB6 /* MNAlertAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNAlertAnimationController.h; sourceTree = "<group>"; };
+		08B2617123539A4D00898AB6 /* MNAlertAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNAlertAnimationController.m; sourceTree = "<group>"; };
+		08B2617623539E5A00898AB6 /* TestAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAlertViewController.h; sourceTree = "<group>"; };
+		08B2617723539E5A00898AB6 /* TestAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAlertViewController.m; sourceTree = "<group>"; };
 		08FA496E20E4ADF200AB92A4 /* minikit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minikit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08FA497120E4ADF200AB92A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08FA497220E4ADF200AB92A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -141,9 +183,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08592CF8235B7DD0009C5059 /* MNColorPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				08592CF9235B7DD0009C5059 /* MNColorPickerView.h */,
+				08592CFA235B7DD0009C5059 /* MNDripView.h */,
+				08592CFB235B7DD0009C5059 /* MNSemiCircleView.h */,
+				08592CFC235B7DD0009C5059 /* MNSlider.h */,
+				08592CFD235B7DD0009C5059 /* MNFavoriteColorView.h */,
+				08592CFE235B7DD0009C5059 /* MNCenterCircleView.m */,
+				08592CFF235B7DD0009C5059 /* MNMenuWindow.m */,
+				08592D00235B7DD0009C5059 /* MNMenuView.h */,
+				08592D01235B7DD0009C5059 /* MNColorCicle.m */,
+				08592D02235B7DD0009C5059 /* MNDripView.m */,
+				08592D03235B7DD0009C5059 /* MNSemiCircleView.m */,
+				08592D04235B7DD0009C5059 /* MNColorPickerView.m */,
+				08592D05235B7DD0009C5059 /* MNSlider.m */,
+				08592D06235B7DD0009C5059 /* MNMenuWindow.h */,
+				08592D07235B7DD0009C5059 /* MNCenterCircleView.h */,
+				08592D08235B7DD0009C5059 /* MNFavoriteColorView.m */,
+				08592D09235B7DD0009C5059 /* MNColorCicle.h */,
+				08592D0A235B7DD0009C5059 /* MNMenuView.m */,
+			);
+			path = MNColorPickerView;
+			sourceTree = "<group>";
+		};
 		087FFE3A2345F02500510CD7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				08592CF8235B7DD0009C5059 /* MNColorPickerView */,
+				08B2616F235399F100898AB6 /* MNAlertConteoller */,
 				087FFE9E2345FD8900510CD7 /* MNTools */,
 				087FFE3B2345F02500510CD7 /* miniKit.h */,
 				087FFE3C2345F02500510CD7 /* MNKeyboard */,
@@ -201,7 +270,7 @@
 		087FFE532345F02500510CD7 /* MNCategory */ = {
 			isa = PBXGroup;
 			children = (
-				087FFEA32346027A00510CD7 /* MNMacro.h */,
+				0894FDD3234C26210091DFFF /* MNMacro.h */,
 				087FFE542345F02500510CD7 /* UIButton+YCExtension.m */,
 				087FFE562345F02500510CD7 /* UIView+shadowPath.m */,
 				087FFE572345F02500510CD7 /* MNCountDown.h */,
@@ -229,9 +298,9 @@
 				087FFE6E2345F02500510CD7 /* UILabel+MNExtension.m */,
 				087FFE6F2345F02600510CD7 /* MNAlertView.m */,
 				087FFE702345F02600510CD7 /* UIView+MNExtension.h */,
-				087FFE712345F02600510CD7 /* UIView+MNMaker.h */,
 				087FFE722345F02600510CD7 /* MBProgressHUD+YCExtension.h */,
 				087FFE732345F02600510CD7 /* NSString+MNString.h */,
+				087FFE712345F02600510CD7 /* UIView+MNMaker.h */,
 			);
 			path = MNCategory;
 			sourceTree = "<group>";
@@ -267,6 +336,19 @@
 			path = MNTools;
 			sourceTree = "<group>";
 		};
+		08B2616F235399F100898AB6 /* MNAlertConteoller */ = {
+			isa = PBXGroup;
+			children = (
+				08B2617023539A4D00898AB6 /* MNAlertAnimationController.h */,
+				08B2617123539A4D00898AB6 /* MNAlertAnimationController.m */,
+				083E05212353A32D006A1A0E /* MNAlertViewsController.h */,
+				083E05222353A32D006A1A0E /* MNAlertViewsController.m */,
+				083E05242353A7FB006A1A0E /* MNAlertXIBViewController.h */,
+				083E05252353A7FB006A1A0E /* MNAlertXIBViewController.m */,
+			);
+			path = MNAlertConteoller;
+			sourceTree = "<group>";
+		};
 		08FA496520E4ADF200AB92A4 = {
 			isa = PBXGroup;
 			children = (
@@ -295,6 +377,10 @@
 				08FA497520E4ADF200AB92A4 /* ViewController.m */,
 				0880E33322F18F9D00D8D8C6 /* MyAlertViewController.h */,
 				0880E33422F18F9D00D8D8C6 /* MyAlertViewController.m */,
+				08B2617623539E5A00898AB6 /* TestAlertViewController.h */,
+				08B2617723539E5A00898AB6 /* TestAlertViewController.m */,
+				08592D14235B7EBD009C5059 /* MNColorPickerViewController.h */,
+				08592D15235B7EBD009C5059 /* MNColorPickerViewController.m */,
 				08FA497720E4ADF200AB92A4 /* Main.storyboard */,
 				08FA497A20E4ADF300AB92A4 /* Assets.xcassets */,
 				08FA497C20E4ADF300AB92A4 /* LaunchScreen.storyboard */,
@@ -433,10 +519,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08592D0E235B7DD0009C5059 /* MNDripView.m in Sources */,
+				08592D12235B7DD0009C5059 /* MNFavoriteColorView.m in Sources */,
 				087FFE922345F02600510CD7 /* UIColor+MNExtension.m in Sources */,
 				087FFE862345F02600510CD7 /* MNShineParams.m in Sources */,
 				087FFE942345F02600510CD7 /* UIViewController+NavigationBarHidden.m in Sources */,
+				08592D13235B7DD0009C5059 /* MNMenuView.m in Sources */,
 				087FFE812345F02600510CD7 /* MNIDCardBoard.m in Sources */,
+				08B2617823539E5A00898AB6 /* TestAlertViewController.m in Sources */,
 				087FFE912345F02600510CD7 /* MNDateFormatter.m in Sources */,
 				087FFE882345F02600510CD7 /* MNShineButton.m in Sources */,
 				087FFE932345F02600510CD7 /* NSDate+MNExtension.m in Sources */,
@@ -445,28 +535,38 @@
 				087FFE822345F02600510CD7 /* MNBoardToolBar.m in Sources */,
 				087FFE8A2345F02600510CD7 /* UIView+shadowPath.m in Sources */,
 				087FFE972345F02600510CD7 /* MNAlertView.m in Sources */,
+				083E05232353A32D006A1A0E /* MNAlertViewsController.m in Sources */,
 				087FFE842345F02600510CD7 /* MNShineLayer.m in Sources */,
 				0880E33522F18F9D00D8D8C6 /* MyAlertViewController.m in Sources */,
 				087FFE962345F02600510CD7 /* UILabel+MNExtension.m in Sources */,
+				08592D0C235B7DD0009C5059 /* MNMenuWindow.m in Sources */,
 				087FFE9C2345F02600510CD7 /* MNValidationView.m in Sources */,
 				087FFE872345F02600510CD7 /* MNShineClickLayer.m in Sources */,
 				087FFE992345F02600510CD7 /* MNCycleImageViewPageControl.m in Sources */,
 				08FA497620E4ADF200AB92A4 /* ViewController.m in Sources */,
+				08592D0F235B7DD0009C5059 /* MNSemiCircleView.m in Sources */,
+				08592D0B235B7DD0009C5059 /* MNCenterCircleView.m in Sources */,
 				087FFE9B2345F02600510CD7 /* MNCycleImageViewCell.m in Sources */,
 				087FFE852345F02600510CD7 /* MNShineAngleLayer.m in Sources */,
 				087FFE8E2345F02600510CD7 /* MBProgressHUD+YCExtension.m in Sources */,
 				087FFE802345F02600510CD7 /* MNPayKeyBoard.m in Sources */,
+				08592D0D235B7DD0009C5059 /* MNColorCicle.m in Sources */,
 				087FFE9A2345F02600510CD7 /* MNCycleImageView.m in Sources */,
 				087FFE832345F02600510CD7 /* MNMoveButton.m in Sources */,
 				087FFE7F2345F02600510CD7 /* MNTextFiled.m in Sources */,
 				087FFE8F2345F02600510CD7 /* MNCountDown.m in Sources */,
 				08FA498120E4ADF300AB92A4 /* main.m in Sources */,
+				083E05262353A7FB006A1A0E /* MNAlertXIBViewController.m in Sources */,
 				087FFEA22345FD8900510CD7 /* MNUtils.m in Sources */,
+				08592D11235B7DD0009C5059 /* MNSlider.m in Sources */,
+				08592D10235B7DD0009C5059 /* MNColorPickerView.m in Sources */,
 				087FFE902345F02600510CD7 /* NSData+MNExtension.m in Sources */,
 				08FA497320E4ADF200AB92A4 /* AppDelegate.m in Sources */,
 				087FFE8D2345F02600510CD7 /* UIView+MNMaker.m in Sources */,
 				087FFE8B2345F02600510CD7 /* UIView+MNExtension.m in Sources */,
+				08B2617223539A4D00898AB6 /* MNAlertAnimationController.m in Sources */,
 				087FFE8C2345F02600510CD7 /* NSString+MNString.m in Sources */,
+				08592D16235B7EBD009C5059 /* MNColorPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,8 @@
 #import "miniKit.h"
 #import "Masonry.h"
 #import "MyAlertViewController.h"
+#import "TestAlertViewController.h"
+#import "MNColorPickerViewController.h"
 @interface ViewController ()
 @property (nonatomic,strong)  MNTextFiled *textfield;
 
@@ -27,15 +29,45 @@
     UIButton *hitBtn = [UIButton buttonWithType:UIButtonTypeCustom];
      [self.view addSubview:hitBtn];
     
-    [hitBtn addTarget:self action:@selector(hitClick) forControlEvents:UIControlEventTouchUpInside];
+    
+    [hitBtn addTarget:self action:@selector(hitClick1:) forControlEvents:UIControlEventTouchUpInside];
     hitBtn.backgroundColor = [UIColor blueColor];
-    [hitBtn setTitle:@"弹框kKK"forState:UIControlStateNormal];
+    [hitBtn setTitle:@"弹框k1"forState:UIControlStateNormal];
     [hitBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(self.view.mas_top).mas_offset(40);
         make.left.mas_equalTo(self.view.mas_left).mas_offset(80);
         make.height.mas_equalTo(40);
-        make.width.mas_equalTo(80);
+        make.width.mas_equalTo(100);
     }];
+    
+    
+    
+    UIButton *hitBtn1 = [UIButton buttonWithType:UIButtonTypeCustom];
+     [self.view addSubview:hitBtn1];
+    
+    [hitBtn1 addTarget:self action:@selector(hitClick2:) forControlEvents:UIControlEventTouchUpInside];
+    hitBtn1.backgroundColor = [UIColor blueColor];
+    [hitBtn1 setTitle:@"弹框k2"forState:UIControlStateNormal];
+    [hitBtn1 mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(self.view.mas_top).mas_offset(40);
+        make.left.mas_equalTo(self.view.mas_left).mas_offset(200);
+        make.height.mas_equalTo(40);
+        make.width.mas_equalTo(100);
+    }];
+    
+    
+    UIButton *hitBtn3 = [UIButton buttonWithType:UIButtonTypeCustom];
+        [self.view addSubview:hitBtn3];
+       
+       [hitBtn3 addTarget:self action:@selector(hitClick3:) forControlEvents:UIControlEventTouchUpInside];
+       hitBtn3.backgroundColor = [UIColor blueColor];
+       [hitBtn3 setTitle:@"圆环彩色板"forState:UIControlStateNormal];
+       [hitBtn3 mas_makeConstraints:^(MASConstraintMaker *make) {
+           make.top.mas_equalTo(self.view.mas_top).mas_offset(84);
+           make.left.mas_equalTo(self.view.mas_left).mas_offset(200);
+           make.height.mas_equalTo(40);
+           make.width.mas_equalTo(100);
+       }];
     
     
     
@@ -99,9 +131,28 @@
 }
 
 
--(void)hitClick{
+-(void)hitClick1:(UIButton *) btn {
     
     MyAlertViewController *VC = [[MyAlertViewController alloc]init];
+    
+    [self presentViewController:VC animated:YES completion:nil];
+    
+  
+}
+
+-(void)hitClick2:(UIButton *) btn {
+    
+    TestAlertViewController *VC = [[TestAlertViewController alloc]init];
+    
+    [self presentViewController:VC animated:YES completion:nil];
+    
+  
+}
+
+
+-(void)hitClick3:(UIButton *) btn {
+    
+    MNColorPickerViewController *VC = [[MNColorPickerViewController alloc]init];
     
     [self presentViewController:VC animated:YES completion:nil];
     

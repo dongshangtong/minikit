@@ -14,6 +14,8 @@
 
 #import "MNValidationView.h"
 
+#import "MNColorPickerView.h"
+
 #import "MNMoveButton.h"
 #import "MNTextFiled.h"
 

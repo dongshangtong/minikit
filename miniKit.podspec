@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "miniKit"
-  s.version      = "1.2.0"
+  s.version      = "1.2.1"
   s.summary      = "ios开发常用工具或分类"
   s.description  = <<-DESC
 
@@ -51,6 +51,11 @@ end
 end
  s.subspec 'MNCategory' do |va|
  va.source_files = "Classes/MNCategory/*.{h,m,xib}"
+
+end
+
+s.subspec 'MNColorPickerView' do |va|
+ va.source_files = "Classes/MNColorPickerView/*.{h,m,xib}"
 
 end
 
