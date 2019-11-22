@@ -119,6 +119,17 @@ RGBA RGBAFromUIColor(UIColor *color);
 //  把UIColor 转换 16 进制
 - (NSString *)hexadecimalFromUIColor:(UIColor *)color;
 
+
+
+// 下面更简单
+
+//UIColor *mycolor = [UIColor colorWithHexString:@"#FEC218"];
+//
+//
+//  CGFloat red,green,blue,alpha;
+//
+//  [mycolor getRed:&red green:&green blue:&blue alpha:&alpha];
+
 @end
 
 NS_ASSUME_NONNULL_END
