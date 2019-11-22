@@ -429,4 +429,103 @@
     return [UIColor colorWithRed:comps[0] green:comps[1] blue:comps[2] alpha:1.0];
 }
 
+
+
+
+//  把UIColor 转换 16 进制
+- (NSString *)hexadecimalFromUIColor:(UIColor *)color {
+    if (CGColorGetNumberOfComponents(color.CGColor) < 4) {
+        const CGFloat *components = CGColorGetComponents(color.CGColor);
+
+        color = [UIColor colorWithRed:components[0] green:components[0] blue:components[0] alpha:components[1] ];
+    }
+
+    if (CGColorSpaceGetModel(CGColorGetColorSpace(color.CGColor)) != kCGColorSpaceModelRGB) {
+        return [NSString stringWithFormat:@"#FFFFFF"];
+    }
+
+    NSString *r, *g, *b;
+
+    (int)((CGColorGetComponents(color.CGColor))[0] * 255.0) == 0 ? (r = [NSString stringWithFormat:@"0%x", (int)((CGColorGetComponents(color.CGColor))[0] * 255.0)]) : (r = [NSString stringWithFormat:@"%x", (int)((CGColorGetComponents(color.CGColor))[0] * 255.0)]);
+
+    (int)((CGColorGetComponents(color.CGColor))[1] * 255.0) == 0 ? (g = [NSString stringWithFormat:@"0%x", (int)((CGColorGetComponents(color.CGColor))[1] * 255.0)]) : (g = [NSString stringWithFormat:@"%x", (int)((CGColorGetComponents(color.CGColor))[1] * 255.0)]);
+
+    (int)((CGColorGetComponents(color.CGColor))[2] * 255.0) == 0 ? (b = [NSString stringWithFormat:@"0%x", (int)((CGColorGetComponents(color.CGColor))[2] * 255.0)]) : (b = [NSString stringWithFormat:@"%x", (int)((CGColorGetComponents(color.CGColor))[2] * 255.0)]);
+
+    return [NSString stringWithFormat:@"#%@%@%@", r, g, b];
+}
+
+//  把UIColor 转换 cgb 进制, 需要在外面设置 CGFloat components[3];
+- (void)getRGBComponents:(CGFloat [3])components forColor:(UIColor *)color {
+    CGColorSpaceRef rgbColorSpace = CGColorSpaceCreateDeviceRGB();
+    unsigned char resultingPixel[4];
+    CGContextRef context = CGBitmapContextCreate(&resultingPixel,
+                                                 1,
+                                                 1,
+                                                 8,
+                                                 4,
+                                                 rgbColorSpace,
+                                                 kCGImageAlphaNoneSkipLast);
+    CGContextSetFillColorWithColor(context, [color CGColor]);
+    CGContextFillRect(context, CGRectMake(0, 0, 1, 1));
+    CGContextRelease(context);
+    CGColorSpaceRelease(rgbColorSpace);
+    for (int component = 0; component < 3; component++) {
+        components[component] = resultingPixel[component] / 255.0f;
+    }
+}
+
+
+
+
+RGBA RGBAFromUIColor(UIColor *color)
+{
+    return RGBAFromCGColor(color.CGColor);
+}
+
+RGBA RGBAFromCGColor(CGColorRef color)
+{
+    RGBA rgba;
+
+    CGColorSpaceRef color_space = CGColorGetColorSpace(color);
+    CGColorSpaceModel color_space_model = CGColorSpaceGetModel(color_space);
+    const CGFloat *color_components = CGColorGetComponents(color);
+    int color_component_count = CGColorGetNumberOfComponents(color);
+
+    switch (color_space_model) {
+        case kCGColorSpaceModelMonochrome: {
+            assert(color_component_count == 2);
+            rgba = (RGBA)
+            {
+                .r = color_components[0],
+                .g = color_components[0],
+                .b = color_components[0],
+                .a = color_components[1]
+            };
+            break;
+        }
+
+        case kCGColorSpaceModelRGB: {
+            assert(color_component_count == 4);
+            rgba = (RGBA)
+            {
+                .r = color_components[0],
+                .g = color_components[1],
+                .b = color_components[2],
+                .a = color_components[3]
+            };
+            break;
+        }
+
+        default: {
+            NSLog(@"Unsupported color space model %i", color_space_model);
+            rgba = (RGBA) { 0, 0, 0, 0 };
+            break;
+        }
+    }
+
+    return rgba;
+}
+
+
 @end

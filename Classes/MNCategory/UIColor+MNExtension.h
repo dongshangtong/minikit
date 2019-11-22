@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+typedef struct {
+    CGFloat r; // Red component (0 <= r <= 1)
+    CGFloat g; // Green component (0 <= g <= 1)
+    CGFloat b; // Blue component (0 <= b <= 1)
+    CGFloat a; // Alpha/opacity component (0 <= a <= 1)
+}
+RGBA;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIColor (MNExtension)
@@ -101,6 +109,15 @@ NS_ASSUME_NONNULL_BEGIN
 - (UIColor *)lightenByPercent:(CGFloat)percent;
 
 + (UIColor *)randomColor;
+
+
+RGBA RGBAFromUIColor(UIColor *color);
+
+//  把UIColor 转换 cgb 进制, 需要在外面设置 CGFloat components[3];
+- (void)getRGBComponents:(CGFloat [3])components forColor:(UIColor *)color;
+
+//  把UIColor 转换 16 进制
+- (NSString *)hexadecimalFromUIColor:(UIColor *)color;
 
 @end
 
